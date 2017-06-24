@@ -8,6 +8,6 @@ Check if the first time to run.
 ![](img/ColinTreeFirstRun/en.png)  
 
 下载地址：
-* [Github1](aix/cn.colintree.aix.ColinTreeFirstRun.aix)
-* [Github2](https://raw.githubusercontent.com/OpenSourceAIX/ColinTreeFirstRun/master/cn.colintree.aix.ColinTreeFirstRun.aix)
-* [ColinTree本站](http://down.colintree.cn/colintree/cn.colintree.aix.ColinTreeFirstRun.aix)
+* [本站下载1](aix/cn.colintree.aix.ColinTreeFirstRun.aix)
+* [本站下载2](http://down.colintree.cn/colintree/cn.colintree.aix.ColinTreeFirstRun.aix)
+* [Github](https://raw.githubusercontent.com/OpenSourceAIX/ColinTreeFirstRun/master/cn.colintree.aix.ColinTreeFirstRun.aix)
