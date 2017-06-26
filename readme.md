@@ -2,9 +2,7 @@
 
 # 欢迎来到aix.ColinTree.cn
 
-# 本页面尚未完成
-
-希望访问原站“Appinventor 拓展组件&教程” 的朋友请点击[这里](http://www.source-space.cn)
+### 本页面尚未完成，希望访问原站“Appinventor 拓展组件&教程” 的朋友请点击[这里](http://www.source-space.cn)
 
 这是我所建立的拓展组件的列表，其中已经开源的会附带一个星号（*）：
 
