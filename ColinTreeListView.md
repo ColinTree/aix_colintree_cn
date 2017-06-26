@@ -17,8 +17,7 @@
    
    代码样例如图：  
    ![](img/ColinTreeListView/set_code.png)  
-   对应显示效果如图（两台测试设备）：  
-   ![](img/ColinTreeListView/set_screen_MI5.png)
+   对应显示效果如图：  
    ![](img/ColinTreeListView/set_screen_HWP9P.png)  
 
 其他操作：
