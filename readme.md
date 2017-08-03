@@ -6,8 +6,12 @@
 
 这是我所建立的拓展组件的列表，其中已经开源的会附带一个星号（*）：
 
-* [ColinTreeFirstRun](ColinTreeFirstRun)* [源代码](https://github.com/OpenSourceAIX/ColinTreeFirstRun)
+* [BaiduFanyi](BaiduFanyi)  
+  百度翻译Api的直接对接拓展组件，简单易用  
+
+* [ColinTreeFirstRun](ColinTreeFirstRun)* [源代码](https://github.com/OpenSourceAIX/ColinTreeFirstRun)  
   判断是否第一次运行，只需要一键调用即可完成！
+  
 * [ColinTreeGoHome](ColinTreeGoHome)* [源代码]()
   
 * [ColinTreeIMEI](ColinTreeIMEI)* [源代码]()
