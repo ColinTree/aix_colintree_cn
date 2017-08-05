@@ -13,5 +13,6 @@
   [本站下载](aix/cn.colintree.aix.Translators.BaiduFanyi.aix)  
 
 * 样例aia：  
-  [aia下载地址](aia/BaiduFanyi.aia) [apk下载地址](apk/BaiduFanyi.apk)  
+  [aia下载地址](https://github.com/ColinTree/aix_colintree_cn/releases/download/BaidufanyiTest/BaiduFanyiTest.aia)
+  [apk下载地址](https://github.com/ColinTree/aix_colintree_cn/releases/download/BaidufanyiTest/BaiduFanyiTest.apk)  
   ![](img/BaiduFanyi/aiaRuntimeScreenshot1.png) ![](img/BaiduFanyi/aiaRuntimeScreenshot2.png)  
