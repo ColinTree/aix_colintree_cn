@@ -1,6 +1,7 @@
 # BaiduFanyi
 
 **直接向百度翻译api获取想要的翻译结果！**  
+[api首页](http://fanyi-api.baidu.com/api/trans/product/desktop?req=developer)  
 
 * 最后更新：  
   2017.8.5  
