@@ -14,7 +14,7 @@ Check if the first time to run.
 
 下载地址：
 
-[本站下载1](/aix/cn.colintree.aix.ColinTreeFirstRun.aix "本站下载1")
+<a href="/aix/cn.colintree.aix.ColinTreeFirstRun.aix" target="_blank">本站下载1</a>
 
 [本站下载2](http://down.colintree.cn/colintree/cn.colintree.aix.ColinTreeFirstRun.aix)
 
