@@ -12,7 +12,7 @@
   亲测可用的有：[mit服](http://ai2.appinventor.mit.edu) 以及 [广服测试服](http://apptest.gzjkw.net)
 
 * 拓展文件\(.aix\)下载地址：  
-  [本站下载](aix/cn.colintree.aix.Translators.BaiduFanyi.aix)
+  [本站下载](/aix/cn.colintree.aix.Translators.BaiduFanyi.aix)
 
 * 样例aia：  
   [aia下载地址](https://github.com/ColinTree/aix_colintree_cn/releases/download/BaiduFanyiTest/BaiduFanyiTest.aia)  [apk下载地址](https://github.com/ColinTree/aix_colintree_cn/releases/download/BaiduFanyiTest/BaiduFanyiTest.apk)  
