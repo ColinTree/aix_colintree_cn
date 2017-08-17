@@ -5,18 +5,10 @@
 **直接向百度翻译api获取想要的翻译结果！**  
 [百度官方api首页](http://fanyi-api.baidu.com/api/trans/product/desktop?req=developer)
 
-* 最后更新：  
-  2017.8.5
 
-* 注：由于ai2的更新，暂时不支持伴侣相应版本2.43以下的服务器（对说的就是广服和大部分离线版）  
-  亲测可用的有：[mit服](http://ai2.appinventor.mit.edu) 以及 [广服测试服](http://apptest.gzjkw.net)
-
-* 拓展文件\(.aix\)下载地址：  
-  <a href="/aix/cn.colintree.aix.Translators.BaiduFanyi.aix" target="_blank">本站下载</a>
-
-* 样例aia：  
-  [aia下载地址](https://github.com/ColinTree/aix_colintree_cn/releases/download/BaiduFanyiTest/BaiduFanyiTest.aia)  [apk下载地址](https://github.com/ColinTree/aix_colintree_cn/releases/download/BaiduFanyiTest/BaiduFanyiTest.apk)  
+### 下载地址
+* 最后更新 2017.8.5
+* <a href="/aix/cn.colintree.aix.Translators.BaiduFanyi.aix" target="_blank">下载(本站)</a>
+* [样例aia下载](https://github.com/ColinTree/aix_colintree_cn/releases/download/BaiduFanyiTest/BaiduFanyiTest.aia)  
+* [样例apk下载](https://github.com/ColinTree/aix_colintree_cn/releases/download/BaiduFanyiTest/BaiduFanyiTest.apk)  
   ![](/images/BaiduFanyi/aiaRuntimeScreenshot1.png) ![](/images/BaiduFanyi/aiaRuntimeScreenshot2.png)
-
-
-
