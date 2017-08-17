@@ -6,6 +6,7 @@
 比如GreatestCommonDivisor(最大公约数)缩短为GCD，减小代码占用面积
 
 ### 下载地址
+* 最后更新 2017.8.17
 * <a href="/aix/cn.colintree.aix.ColinTreeMath.aix" target="_blank">下载1(本站)</a>
 * [下载2](https://raw.githubusercontent.com/OpenSourceAIX/ColinTreeMath/master/cn.colintree.aix.ColinTreeMath.aix)
 * [源代码](https://github.com/OpenSourceAIX/ColinTreeMath)
