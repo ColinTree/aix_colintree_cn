@@ -4,8 +4,8 @@
 
 使用系统的原生小弹窗(Toast)
 
-### 下载地址
-* 最后更新 2017.8.17
-* <a href="/aix/cn.colintree.aix.ColinTreeNotifier.aix" target="_blank">下载1(本站)</a>
-* [下载2](https://raw.githubusercontent.com/OpenSourceAIX/ColinTreeNotifier/master/cn.colintree.aix.ColinTreeNotifier.aix)
-* [源代码](https://github.com/OpenSourceAIX/ColinTreeNotifier)
+### {{ book.lang.Download }}
+* {{ book.lang.LastUpdate }} 2017.8.17
+* <a href="/aix/cn.colintree.aix.ColinTreeNotifier.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
+* [{{ book.lang.Mirror2 }}](https://raw.githubusercontent.com/OpenSourceAIX/ColinTreeNotifier/master/cn.colintree.aix.ColinTreeNotifier.aix)
+* [{{ book.lang.Source }}](https://github.com/OpenSourceAIX/ColinTreeNotifier)
