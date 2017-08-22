@@ -2,8 +2,9 @@
 
 ---
 
-所有功能与“数学运算库拓展组件”相同，区别为函数名字进行了压缩
-比如GreatestCommonDivisor(最大公约数)缩短为GCD，减小代码占用面积
+All the methods here is the same as the ColinTreeMathExtended, but some of the method names are being shortened  
+For example, GreatestCommonDivisor is named GCD here
+And this can avoid code area wasting
 
 ### {{ book.lang.Download }}
 * {{ book.lang.LastUpdate }} 2017.8.17

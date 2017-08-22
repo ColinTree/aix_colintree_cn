@@ -1,10 +1,10 @@
-# Check if is first run - ColinTreeFirstRun *
+# Check first run - ColinTreeFirstRun *
 
 ---
 
-判断是否第一次运行，只需要一键调用即可完成！
+Check if the code is the first time to run!
 
-### 使用方法
+### How to use
 ![](/images/ColinTreeFirstRun/code.png)
 
 ### {{ book.lang.Download }}

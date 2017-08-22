@@ -1,9 +1,10 @@
-# Go Android desktop - ColinTreeGoHome *
+# Go Home Screen - ColinTreeGoHome *
 
 ---
 
-非常简单但是实用的功能——在不关闭app的情况下返回手机桌面  
-但不保证在后台持续运行（此功能需要整个应用协调，不在本拓展组件功能范围）
+Very easy to use, that launch the android home screen without closing the app  
+HOWEVER, i cannot do the work like keep the app running in the background.  
+that may cause problem when someone abuses this feature
 
 ### {{ book.lang.Download }}
 * {{ book.lang.LastUpdate }} 2017.8.17

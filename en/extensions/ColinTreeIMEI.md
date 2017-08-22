@@ -2,7 +2,8 @@
 
 ---
 
-获得设备的唯一码IMEI（GSM手机）或MEID（CDMA手机）
+Get the device IMEI (or MEID), for identifying user devices!
+[WHAT IS IMEI(wikipedia)](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity)
 
 ### {{ book.lang.Download }}
 * {{ book.lang.LastUpdate }} 2017.8.17

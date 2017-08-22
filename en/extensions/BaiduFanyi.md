@@ -2,8 +2,10 @@
 
 ---
 
-**直接向百度翻译api获取想要的翻译结果！**  
-[百度官方api首页](http://fanyi-api.baidu.com/api/trans/product/desktop?req=developer)
+**Using this extension to get the translate result from Baidu Translate API**  
+(Actually this is for the people that cannot access Google in China XD)
+
+[Home page of Baidu Translate API](http://fanyi-api.baidu.com/api/trans/product/desktop?req=developer)
 
 
 ### {{ book.lang.Download }}

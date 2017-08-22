@@ -2,30 +2,29 @@
 
 ---
 
-对Appinventor的数学运算进行功能拓展咯！内置了一下函数：
+Extended the math methods  of Appinventor (& thunkable):
 
-| 函数名 | 解释 |
+| Method name | Explanation |
 |---|---|
-| Average(计算平均值) | 计算参数(**数字列表\***)中的所有数字的平均值 |
-| BubbleSortInAscendingOrder<br>(按升序进行冒泡排序) | 将参数(**数字列表\***)中的数字按照升序排序并返回 |
-| BubbleSortInDecendingOrder<br>(按降序进行冒泡排序) | 将参数(**数字列表\***)中的数字按照降序排序并返回 |
-| CubeRoot(立方根) | 返回参数(任意数字)的立方根 |
-| GreatestCommonDivisor<br>(最大公约数) | 返回两个参数(**整数\***)最大公约数 |
-| LeastCommonMultiple<br>(最小公倍数) | 返回两个参数(**整数\***)的最小公倍数 |
-| Log10 | 返回参数(任意数字)对于底数10的对数 |
-| Max(最大数) | 返回参数(**数字列表\***)中最大的数字 |
-| Min(最小数) | 返回参数(**数字列表\***)中最小的数字 |
-| Pi(π) | 返回圆周率π的近似值 |
-| Power(求幂) | 返回参数num(任意数字)的参数n(**整数\***)次幂 |
-| PrimeNumber(判断质数) | 如果参数(**正整数\***)是质数则返回true否则返回false |
-| ReciprocalOfTheSquareRoot |
-| (平方根倒数) | 返回参数(任意数字)的平方根的倒数 |
-| e | 返回常数e |
-| hypot(两数平方和的平方根) | 返回两个参数(任意数字)的平方和的平方根（常用于勾股定理） |
+| Average | return the average of the (**Number list\***) |
+| BubbleSortInAscendingOrder | return the ascending order of the numbers from the parameter(**Number list\***) |
+| BubbleSortInDecendingOrder | return the decending order of the numbers from the parameter(**Number list\***) |
+| CubeRoot | return the cube root of parameter(Any number) |
+| GreatestCommonDivisor | return the greatest common divisor of two parameter(**Integer\***) |
+| LeastCommonMultiple | return the least common multiple of two parameter(**Integer\***) |
+| Log10 | return the result of log(10,parameter) |
+| Max | return the max number in the parameter(**Number list\***) |
+| Min | return the min number in the parameter(**Number list\***) |
+| Pi(π) | return π |
+| Power | return num^n, when parameter num canbe any number but parameter n can only be **Integer\*** |
+| PrimeNumber | If the parameter(**Non-negative Integer\***) is prime number then return true, else return false |
+| ReciprocalOfTheSquareRoot | return the reciprocal of the square root of the parameter(any number) |
+| e | return e |
+| hypot | return root(number1^2 + number2^2) |
 
-* **数字列表\***  如果数字列表中有非数字列表项，会发生运行错误
-* **整数\***  如果在这里填入一个小数，会自动向下取整，比如2.5取整为2
-* **正整数\***  我自己也还没有尝试如果填负数会怎么样……
+* **Number list\***  if there is any item that is not number, runtime error may occur
+* **Integer\***  if a decimal is provided, it will rounded down. For example, 2.5 will be rounded down into 2
+* **Non-negative Integer\***  I did not try what will happen if negative is provided...
 
 ### {{ book.lang.Download }}
 * {{ book.lang.LastUpdate }} 2017.8.17
