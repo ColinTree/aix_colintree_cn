@@ -4,6 +4,9 @@
 
 This extension package included two extensions. Horizontal Scroll Arrangement Handler(HorizontalScrollArrHandler) AND Vertical Scroll Arrangement Handler(VerticalScrollArrHandler).
 
+Update on 2017.8.26:
+* added TouchUp event
+
 
 ## Horizontal Scroll Arrangement Handler (HorizontalScrollArrHandler)
 
@@ -11,8 +14,9 @@ This extension package included two extensions. Horizontal Scroll Arrangement Ha
   * onScrollChanged
   * onScrollLeftEnd
   * onScrollRightEnd
+  * TouchUp
 
-  ![](/images/ScrollArrangementHandler/HorizontalScrollArrHandler/events.png)
+  ![](/images/ScrollArrangementHandler/HorizontalScrollArrHandler.events.png)
 
 * Method
   * registerScrollView
@@ -29,7 +33,7 @@ This extension package included two extensions. Horizontal Scroll Arrangement Ha
   * ** parameters: **
     * px - the displacement of scrolling. positive if scrolling rightward, and negative if scrolling leftward
 
-  ![](/images/ScrollArrangementHandler/HorizontalScrollArrHandler/methods.png)
+  ![](/images/ScrollArrangementHandler/HorizontalScrollArrHandler.methods.png)
 
 
 ## Vertical Scroll Arrangement Handler (VerticalScrollArrHandler)
@@ -38,8 +42,9 @@ This extension package included two extensions. Horizontal Scroll Arrangement Ha
   * onScrollBottom
   * onScrollChanged
   * onScrollTop
+  * TouchUp
 
-  ![](/images/ScrollArrangementHandler/VerticalScrollArrHandler/events.png)
+  ![](/images/ScrollArrangementHandler/VerticalScrollArrHandler.events.png)
 
 * Method
   * registerScrollView
@@ -56,8 +61,8 @@ This extension package included two extensions. Horizontal Scroll Arrangement Ha
   * ** parameters: **
     * px - the displacement of scrolling. positive if scrolling downward, and negative if scrolling upward
 
-  ![](/images/ScrollArrangementHandler/VerticalScrollArrHandler/methods.png)
+  ![](/images/ScrollArrangementHandler/VerticalScrollArrHandler.methods.png)
 
 ### {{ book.lang.Download }}
-* {{ book.lang.LastUpdate }} 2017.8.25
+* {{ book.lang.LastUpdate }} 2017.8.26
 * <a href="/aix/cn.colintree.aix.ScrollArrangementHandler.aix" target="_blank">{{ book.lang.Mirror1 }}</a>

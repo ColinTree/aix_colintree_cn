@@ -4,15 +4,19 @@
 
 这个拓展包内包含了两个拓展，水平滚动布局管理器HorizontalScrollArrHandler，和垂直滚动管理器VerticalScrollArrHandler
 
+2017.8.26更新：
+* 增加了布局被松开事件 - TouchUp
+
 
 ## 水平滚动布局管理器 HorizontalScrollArrHandler
 
 * 事件：
-  * 列表发生滚动 - onScrollChanged
-  * 列表滚动到最左端 - onScrollLeftEnd
-  * 列表滚动到最右端 - onScrollRightEnd
+  * 布局发生滚动 - onScrollChanged
+  * 布局滚动到最左端 - onScrollLeftEnd
+  * 布局滚动到最右端 - onScrollRightEnd
+  * 布局被松开 - TouchUp
 
-  ![](/images/ScrollArrangementHandler/HorizontalScrollArrHandler/events.png)
+  ![](/images/ScrollArrangementHandler/HorizontalScrollArrHandler.events.png)
 
 * 方法：
   * 绑定水平滚动布局 - registerScrollView
@@ -29,17 +33,18 @@
   * ** 参数解释： **
     * px - 滚动的距离。向右为正，向左为负
 
-  ![](/images/ScrollArrangementHandler/HorizontalScrollArrHandler/methods.png)
+  ![](/images/ScrollArrangementHandler/HorizontalScrollArrHandler.methods.png)
 
 
 ## 垂直滚动布局管理器 VerticalScrollArrHandler
 
 * 事件：
-  * 列表滚动到最底端 - onScrollBottom
-  * 列表发生滚动 - onScrollChanged
-  * 列表滚动到最顶端 - onScrollTop
+  * 布局滚动到最底端 - onScrollBottom
+  * 布局发生滚动 - onScrollChanged
+  * 布局滚动到最顶端 - onScrollTop
+  * 布局被松开 - TouchUp
 
-  ![](/images/ScrollArrangementHandler/VerticalScrollArrHandler/events.png)
+  ![](/images/ScrollArrangementHandler/VerticalScrollArrHandler.events.png)
 
 * 方法：
   * 绑定垂直滚动布局 - registerScrollView
@@ -56,8 +61,8 @@
   * ** 参数解释： **
     * px - 滚动的距离。向下为正，向上为负
 
-  ![](/images/ScrollArrangementHandler/VerticalScrollArrHandler/methods.png)
+  ![](/images/ScrollArrangementHandler/VerticalScrollArrHandler.methods.png)
 
 ### {{ book.lang.Download }}
-* {{ book.lang.LastUpdate }} 2017.8.25
+* {{ book.lang.LastUpdate }} 2017.8.26
 * <a href="/aix/cn.colintree.aix.ScrollArrangementHandler.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
