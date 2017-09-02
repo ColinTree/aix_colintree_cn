@@ -36,6 +36,7 @@
 ### 样例
 
 * [{{ book.lang.SampleAia }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_zh.aia)  
+  <a href="http://app.gzjkw.net/?repo=aix.colintree.cn/templates/ColinTreeNinePatchTestzh/ColinTreeNinePatchTestzh.asc" target="_blank">使用广州电教馆服务器打开</a>  
 * [{{ book.lang.SampleApk }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_zh.apk)  
 
 现有一张已经编译过的素材menu_dropdown_panel_styled.9.png  
