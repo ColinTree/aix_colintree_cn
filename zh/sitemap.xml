@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url> <loc>http://aix.colintree.cn/zh/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/HowToInstallExtensions.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeSlideShow.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeNinePatch.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/ScrollArrangementHandler.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/BaiduFanyi.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeFirstRun.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeGoHome.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeIMEI.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeListView.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeMath.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeMathExtended.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeNotifier.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeSysLang.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+</urlset>

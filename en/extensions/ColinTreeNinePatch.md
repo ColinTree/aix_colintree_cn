@@ -38,7 +38,7 @@ Now with [NinePatchChunk](https://github.com/Anatolii/NinePatchChunk) liburary (
 ### Sample
 
 * [{{ book.lang.SampleAia }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_en.aia)  
-  <a href="http://ai2.appinventor.mit.edu/?repo=aix.colintree.cn/templates/ColinTreeNinePatchTesten/ColinTreeNinePatchTesten.asc" target="_blank">Open with Mit Appinventor</a>  
+  [Open with Mit Appinventor](http://ai2.appinventor.mit.edu/?repo=aix.colintree.cn/templates/ColinTreeNinePatchTesten/ColinTreeNinePatchTesten.asc)  
   [Open with Thunkable](http://app.thunkable.com/?repo=aix.colintree.cn/templates/ColinTreeNinePatchTesten/ColinTreeNinePatchTesten.asc)
 * [{{ book.lang.SampleApk }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_en.apk)  
 
