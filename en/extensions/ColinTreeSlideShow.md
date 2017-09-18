@@ -78,5 +78,5 @@ A property that is not on design page
 * {{ book.lang.LastUpdate }} 2017.9.17
 * <a href="/aix/cn.colintree.aix.ColinTreeSlideshow.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
 * [{{ book.lang.SampleAia }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow/ColinTreeSlideshowTest.aia)  
-* [{{ book.lang.SampleApk }}] - Appinventor(https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow/ColinTreeSlideshowTest.apk)  
-* [{{ book.lang.SampleApk }}] - Thunkable(https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow/ColinTreeSlideshowTest_thunkable.apk)  
+* [{{ book.lang.SampleApk }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow/ColinTreeSlideshowTest.apk) - Appinventor  
+* [{{ book.lang.SampleApk }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow/ColinTreeSlideshowTest_thunkable.apk) - Thunkable  
