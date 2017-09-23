@@ -8,11 +8,11 @@
 
 1. 为该组件预留一个空的 垂直布局 或 垂直滚动布局，将宽高设置好  
    如图：  
-   ![](/images/ColinTreeListView/DesignPageScreenshot.png)
+   ![](../images/ColinTreeListView/DesignPageScreenshot.png)
 
 2. 在添加列表项之前先初始化一下，调用传入一个参数：  
    图中两种方法选其中一个即可  
-   ![](/images/ColinTreeListView/initialize.png)
+   ![](../images/ColinTreeListView/initialize.png)
 
 3. 设置列表的内容：  
    其中，列表（list）这个参数是一个二维的列表（大列表套小列表），列表项可以为：
@@ -29,9 +29,9 @@
     **各种列表项可以在一个列表中共存，并按照各自的规则显示**
 
   代码样例如图：  
-  ![](/images/ColinTreeListView/SetCode.png)  
+  ![](../images/ColinTreeListView/SetCode.png)  
   对应显示效果：  
-  ![](/images/ColinTreeListView/SetCodeScreenshot.png)
+  ![](../images/ColinTreeListView/SetCodeScreenshot.png)
 
 
 
@@ -43,15 +43,15 @@ ColinTreeListView提供了可以供实时更改的列表效果
 * 单个列表项的高度 - ElementHeight
 * 列表图标的高 & 宽 - IconHeight & IconWidth
 * 副文本的颜色 & 加粗 & 字体大小 - SubTextColor & SubTextBold & SubTextSize  
-  ![](/images/ColinTreeListView/Properties1.png)
+  ![](../images/ColinTreeListView/Properties1.png)
 * 文本（包括主文本）的颜色 & 加粗 & 字体大小 - TextColor & TextBold & TextSize
 * 列表项被按下时的颜色（默认为白色，透明度136/255，即53%） - TouchDownColor
 * 列表项分割线（下划线）的颜色 & 线宽 - UnderlineColor & UnderlineWidth
 * 列表项图标右 & 左的间距 - WidthAfterIcon & WidthBeforeIcon  
-  ![](/images/ColinTreeListView/Properties2.png)
+  ![](../images/ColinTreeListView/Properties2.png)
 
 ** 附列表项被按下时的颜色： **  
-![](/images/ColinTreeListView/TouchDownScreenshot.png)
+![](../images/ColinTreeListView/TouchDownScreenshot.png)
 
 
 ### 所有事件和方法
@@ -62,7 +62,7 @@ ColinTreeListView提供了可以供实时更改的列表效果
   * 列表项被按下 - ElementTouchDown
   * 列表项被松开 - ElementTouchUp
 
-  ![](/images/ColinTreeListView/ElementEvents.png)
+  ![](../images/ColinTreeListView/ElementEvents.png)
 
 * 列表图标事件（列表左边图标）：
   * 图标被点击 - IconClick
@@ -70,7 +70,7 @@ ColinTreeListView提供了可以供实时更改的列表效果
   * 图标被按下 - IconTouchDown
   * 图标被松开 - IconTouchUp
   
-  ![](/images/ColinTreeListView/IconEvents.png)
+  ![](../images/ColinTreeListView/IconEvents.png)
 
 * 列表处理：
   * 添加列表项 - addElement
@@ -85,7 +85,7 @@ ColinTreeListView提供了可以供实时更改的列表效果
     * element - 列表项内容
     * elementIndex - 列表项编号，从1开始算
 
-  ![](/images/ColinTreeListView/ListControl.png)
+  ![](../images/ColinTreeListView/ListControl.png)
 
 * 单个列表项控制：
   * 设置单个列表项 - setElement
@@ -97,7 +97,7 @@ ColinTreeListView提供了可以供实时更改的列表效果
     * element - 列表项内容
     * elementIndex - 列表项编号，从1开始算
 
-  ![](/images/ColinTreeListView/ElementControl.png)
+  ![](../images/ColinTreeListView/ElementControl.png)
 
 
 

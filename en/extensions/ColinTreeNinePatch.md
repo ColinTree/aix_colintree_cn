@@ -22,13 +22,13 @@ Now with [NinePatchChunk](https://github.com/Anatolii/NinePatchChunk) liburary (
 * ** Parameters: **
   * component  
     e.g.    
-    ![](/images/ColinTreeNinePatch/component_block_sample.png)  
+    ![](../images/ColinTreeNinePatch/component_block_sample.png)  
     It is usually the last block of a component.
   * path  
     e.g.  
     sample.9.png - the asset "sample.9.png" that was uploaded
 
-![](/images/ColinTreeNinePatch/methods.png)
+![](../images/ColinTreeNinePatch/methods.png)
 
 ### {{ book.lang.Download }}
 
@@ -45,8 +45,8 @@ Now with [NinePatchChunk](https://github.com/Anatolii/NinePatchChunk) liburary (
 Now here is a compiled picture "menu_dropdown_panel_styled.9.png"  
 If it is set onto the Button1 by ColinTreeNinepatch, it works well with 9-patch rules  
 But if the it go through Button1.Image, it still looks horrible.
-![](/images/ColinTreeNinePatch/aiaRuntimeCode.png)  
-![](/images/ColinTreeNinePatch/aiaRuntimeScreenshot.png)
+![](../images/ColinTreeNinePatch/aiaRuntimeCode.png)  
+![](../images/ColinTreeNinePatch/aiaRuntimeScreenshot.png)
 
 ### Making 9-patch
 

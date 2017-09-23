@@ -5,7 +5,7 @@
 判断是否第一次运行，只需要一键调用即可完成！
 
 ### 使用方法
-![](/images/ColinTreeFirstRun/code.png)
+![](../images/ColinTreeFirstRun/code.png)
 
 ### {{ book.lang.Download }}
 * {{ book.lang.LastUpdate }} 2017.8.17

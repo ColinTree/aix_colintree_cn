@@ -7,14 +7,14 @@
 * 判断是否英文
 * 判断是否中文
 
-![](/images/ColinTreeSysLang/block.png)
+![](../images/ColinTreeSysLang/block.png)
 
 ### 样例
 设计了如图的代码  
-![](/images/ColinTreeSysLang/testCode.png)
+![](../images/ColinTreeSysLang/testCode.png)
 
 分别在中英文系统下的显示（通知栏日期作为语言参照）：
-![](/images/ColinTreeSysLang/zhScreenshot.png) ![](/images/ColinTreeSysLang/enScreenshot.png)
+![](../images/ColinTreeSysLang/zhScreenshot.png) ![](../images/ColinTreeSysLang/enScreenshot.png)
 
 ### {{ book.lang.Download }}
 * {{ book.lang.LastUpdate }} 2017.8.17

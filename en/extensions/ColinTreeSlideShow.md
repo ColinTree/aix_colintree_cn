@@ -10,13 +10,13 @@ Using one extension component to finish this job!
    (there is a known bug that when the arrangement's size changed, the slides are still that size, it causes problems)  
 
    Example: (The BG Color can be set here)  
-   ![](/images/ColinTreeSlideShow/DesignPageScreenshot.png)
+   ![](../images/ColinTreeSlideShow/DesignPageScreenshot.png)
 
 2. Register the horizontalScrollArrangement:  
-   ![](/images/ColinTreeSlideShow/register.png)
+   ![](../images/ColinTreeSlideShow/register.png)
 
 3. Add photos:  
-   ![](/images/ColinTreeSlideShow/AddPhoto.png)
+   ![](../images/ColinTreeSlideShow/AddPhoto.png)
 
 
 
@@ -35,7 +35,7 @@ Using one extension component to finish this job!
 * TimerInterval (Unit: millisecond, 1s=1000ms)
   Control when the slideshow should auto-Scroll  
   
-  ![](/images/ColinTreeSlideShow/Properties.png)
+  ![](../images/ColinTreeSlideShow/Properties.png)
 
 
 ### All the events and methods
@@ -47,7 +47,7 @@ Using one extension component to finish this job!
   * Swipe (before scroll finished)
   * Swiped (after scroll finished)
 
-  ![](/images/ColinTreeSlideShow/Events.png)
+  ![](../images/ColinTreeSlideShow/Events.png)
 
 * Methods:
   * AddPhoto
@@ -63,14 +63,14 @@ Using one extension component to finish this job!
     * slideIndex - index of slides(photos), start from 1
     * path - the image path
 
-  ![](/images/ColinTreeSlideShow/Methods.png)
+  ![](../images/ColinTreeSlideShow/Methods.png)
 
 ### Special property
 
 A property that is not on design page
 * CurrentSlide
 
-  ![](/images/ColinTreeSlideShow/CurrentSlide.png)
+  ![](../images/ColinTreeSlideShow/CurrentSlide.png)
 
 
 

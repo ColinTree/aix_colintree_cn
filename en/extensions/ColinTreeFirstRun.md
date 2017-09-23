@@ -5,7 +5,7 @@
 Check if the code is the first time to run!
 
 ### How to use
-![](/images/ColinTreeFirstRun/code.png)
+![](../images/ColinTreeFirstRun/code.png)
 
 ### {{ book.lang.Download }}
 * {{ book.lang.LastUpdate }} 2017.8.17

@@ -8,11 +8,11 @@ Higher level "ListView", using extensions!
 
 1. Left a VerticalArrangement or a VerticalScrollArrangement, set the width and the height as you like  
    Example:  
-   ![](/images/ColinTreeListView/DesignPageScreenshot.png)
+   ![](../images/ColinTreeListView/DesignPageScreenshot.png)
 
 2. Before do anything like add a element, initialize it first:  
    Choose **only one** of the initialize method  
-   ![](/images/ColinTreeListView/initialize.png)
+   ![](../images/ColinTreeListView/initialize.png)
 
 3. Set the list  
    The "set" method required a list, and the list elements can be: 
@@ -35,9 +35,9 @@ Higher level "ListView", using extensions!
     **The three types of list element can exist when a ColinTreeListView is created**
 
   Sample code:  
-  ![](/images/ColinTreeListView/SetCode.png)  
+  ![](../images/ColinTreeListView/SetCode.png)  
   Runtime screenshot:  
-  ![](/images/ColinTreeListView/SetCodeScreenshot.png)
+  ![](../images/ColinTreeListView/SetCodeScreenshot.png)
 
 
 
@@ -49,16 +49,16 @@ And the properties are: (the order of the properties cannot be control by code, 
 * Height of elements - ElementHeight
 * Height & Width of icons - IconHeight & IconWidth
 * Sub-text color & bold & font size - SubTextColor & SubTextBold & SubTextSize  
-  ![](/images/ColinTreeListView/Properties1.png)  
+  ![](../images/ColinTreeListView/Properties1.png)  
 
 * Text(including Main-text) color & bold & font size - TextColor & TextBold & TextSize
 * Color when element is touch down, default alpha is 136/255, about 53% - TouchDownColor
 * Color and the line width of the element underline(dividing line) - UnderlineColor & UnderlineWidth
 * the gap that after & before the icon - WidthAfterIcon & WidthBeforeIcon  
-  ![](/images/ColinTreeListView/Properties2.png)
+  ![](../images/ColinTreeListView/Properties2.png)
 
 ** Attached: the color when element is touch down **  
-![](/images/ColinTreeListView/TouchDownScreenshot.png)
+![](../images/ColinTreeListView/TouchDownScreenshot.png)
 
 
 ### All the events and methods
@@ -69,7 +69,7 @@ And the properties are: (the order of the properties cannot be control by code, 
   * ElementTouchDown
   * ElementTouchUp
 
-  ![](/images/ColinTreeListView/ElementEvents.png)
+  ![](../images/ColinTreeListView/ElementEvents.png)
 
 * Element icon events:
   * IconClick
@@ -77,7 +77,7 @@ And the properties are: (the order of the properties cannot be control by code, 
   * IconTouchDown
   * IconTouchUp
   
-  ![](/images/ColinTreeListView/IconEvents.png)
+  ![](../images/ColinTreeListView/IconEvents.png)
 
 * List operating:
   * addElement
@@ -92,7 +92,7 @@ And the properties are: (the order of the properties cannot be control by code, 
     * element - the content of the element
     * elementIndex - the serial number of the element, starts from 1
 
-  ![](/images/ColinTreeListView/ListControl.png)
+  ![](../images/ColinTreeListView/ListControl.png)
 
 * Element operating:
   * setElement
@@ -104,7 +104,7 @@ And the properties are: (the order of the properties cannot be control by code, 
     * element - the content of the element
     * elementIndex - the serial number of the element, starts from 1
 
-  ![](/images/ColinTreeListView/ElementControl.png)
+  ![](../images/ColinTreeListView/ElementControl.png)
 
 
 

@@ -21,12 +21,12 @@
 * **参数解释：**
   * component - 组件  
     例如：  
-    ![](/images/ColinTreeNinePatch/component_block_sample.png)通常是每一个组件的最下面一个代码块
+    ![](../images/ColinTreeNinePatch/component_block_sample.png)通常是每一个组件的最下面一个代码块
   * path - 图片路径，和ai其他部分的路径规则相同  
     例如：  
     sample.9.png - 上传文件目录下的sample.9.png文件
 
-![](/images/ColinTreeNinePatch/methods.png)
+![](../images/ColinTreeNinePatch/methods.png)
 
 ### {{ book.lang.Download }}
 
@@ -42,8 +42,8 @@
 现有一张已经编译过的素材menu_dropdown_panel_styled.9.png  
 如果使用ColinTreeNinepatch设置到按钮上，可以正常显示为9patch样式  
 而如果使用按钮自带的设置按钮图片，则会放大并模糊化  
-![](/images/ColinTreeNinePatch/aiaRuntimeCode.png)  
-![](/images/ColinTreeNinePatch/aiaRuntimeScreenshot.png)
+![](../images/ColinTreeNinePatch/aiaRuntimeCode.png)  
+![](../images/ColinTreeNinePatch/aiaRuntimeScreenshot.png)
 
 ### 9-patch制作
 
@@ -51,7 +51,7 @@
 推荐：下载下来的压缩文件中，折中选择"res\drawable-xhdpi\"文件夹里的图片进行下一步操作即可
 
 然后我把页面大概翻译了一下：  
-![](/images/ColinTreeNinePatch/AAS_Screenshot.png)
+![](../images/ColinTreeNinePatch/AAS_Screenshot.png)
 
 ### 9-patch编译器
 

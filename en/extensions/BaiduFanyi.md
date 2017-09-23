@@ -13,4 +13,4 @@
 * <a href="/aix/cn.colintree.aix.Translators.BaiduFanyi.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
 * [{{ book.lang.SampleAia }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/BaiduFanyiTest/BaiduFanyiTest.aia)  
 * [{{ book.lang.SampleApk }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/BaiduFanyiTest/BaiduFanyiTest.apk)  
-  ![](/images/BaiduFanyi/aiaRuntimeScreenshot1.png) ![](/images/BaiduFanyi/aiaRuntimeScreenshot2.png)
+  ![](../images/BaiduFanyi/aiaRuntimeScreenshot1.png) ![](../images/BaiduFanyi/aiaRuntimeScreenshot2.png)

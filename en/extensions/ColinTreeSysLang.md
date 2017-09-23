@@ -8,14 +8,14 @@ Included three procedure：
 * Check if is Chinese
 (if need other language checking, just {{ book.lang.ContactMe }})
 
-![](/images/ColinTreeSysLang/block.png)
+![](../images/ColinTreeSysLang/block.png)
 
 ### {{ book.lang.Sample }}
 With the test code:   
-![](/images/ColinTreeSysLang/testCode.png)
+![](../images/ColinTreeSysLang/testCode.png)
 
 The result in different language environment got the result: (use the date to reconize the system language)  
-![](/images/ColinTreeSysLang/zhScreenshot.png) ![](/images/ColinTreeSysLang/enScreenshot.png)
+![](../images/ColinTreeSysLang/zhScreenshot.png) ![](../images/ColinTreeSysLang/enScreenshot.png)
 
 ### {{ book.lang.Download }}
 * {{ book.lang.LastUpdate }} 2017.8.17

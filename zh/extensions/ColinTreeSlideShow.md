@@ -10,13 +10,13 @@
    （目前组件有个问题，在加入图片之后调整这个布局，图片不会跟随改变大小）  
 
    如图（背景颜色可以先设置好）：  
-   ![](/images/ColinTreeSlideShow/DesignPageScreenshot.png)
+   ![](../images/ColinTreeSlideShow/DesignPageScreenshot.png)
 
 2. 在添加列表项之前先初始化一下，调用传入一个参数：  
-   ![](/images/ColinTreeSlideShow/register.png)
+   ![](../images/ColinTreeSlideShow/register.png)
 
 3. 给轮播添加图片：  
-   ![](/images/ColinTreeSlideShow/AddPhoto.png)
+   ![](../images/ColinTreeSlideShow/AddPhoto.png)
 
 
 
@@ -36,7 +36,7 @@
   （由于和计时器组件的属性使用同个名称，这里一般会直接有中文翻译）  
   计时间隔（单位是毫秒，即1/1000秒），控制轮播自动播放的时间间隔  
   
-  ![](/images/ColinTreeSlideShow/Properties.png)
+  ![](../images/ColinTreeSlideShow/Properties.png)
 
 
 ### 所有事件和方法
@@ -48,7 +48,7 @@
   * 轮播开始滚动 - Swipe
   * 轮播滚动结束 - Swiped
 
-  ![](/images/ColinTreeSlideShow/Events.png)
+  ![](../images/ColinTreeSlideShow/Events.png)
 
 * 方法：
   * 添加（追加）图片 - AddPhoto
@@ -64,14 +64,14 @@
     * slideIndex - 轮播图编号，从1开始算
     * 路径(path) - 就图片路径啊……
 
-  ![](/images/ColinTreeSlideShow/Methods.png)
+  ![](../images/ColinTreeSlideShow/Methods.png)
 
 ### 特殊属性
 
 在设计界面没有的一个属性：
 * 当前正在播放图片编号 - CurrentSlide
 
-  ![](/images/ColinTreeSlideShow/CurrentSlide.png)
+  ![](../images/ColinTreeSlideShow/CurrentSlide.png)
 
 
 
