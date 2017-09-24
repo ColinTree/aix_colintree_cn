@@ -3,7 +3,7 @@
 ---
 
 Using one extension component to finish this job!  
-**[2017.9.24 Update available](#Update-log) now asynchronous loading supported, no getting stuck any more**
+**[2017.9.24 Update available](#update-log) now asynchronous loading supported, no getting stuck any more**
 
 ### How to use
 
