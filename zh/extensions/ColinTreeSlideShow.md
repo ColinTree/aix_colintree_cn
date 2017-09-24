@@ -2,7 +2,8 @@
 
 ---
 
-图片轮播，一“件”搞定！
+图片轮播，一“件”搞定！  
+**[2017.9.24 有更新！](#更新记录)现支持异步加载在线图片，告别卡顿**
 
 ### 基本使用流程
 
@@ -38,6 +39,10 @@
   
   ![](../images/ColinTreeSlideShow/Properties.png)
 
+* 加载时显示底图 - ImageWhileLoading (v2新增)
+
+  ![](../images/ColinTreeSlideshow/v2_newProperties.png)
+
 
 ### 所有事件和方法
 
@@ -49,6 +54,11 @@
   * 轮播滚动结束 - Swiped
 
   ![](../images/ColinTreeSlideShow/Events.png)
+
+  * 图片加载完毕 - ImageLoaded (v2新增)
+  * 图片加载失败 - ImageLoadFailed (v2新增)
+
+  ![](../images/ColinTreeSlideshow/v2_newEvents.png)
 
 * 方法：
   * 添加（追加）图片 - AddPhoto
@@ -75,9 +85,19 @@
 
 
 
-### {{ book.lang.Download }}  
-* {{ book.lang.LastUpdate }} 2017.9.17
-* <a href="/aix/cn.colintree.aix.ColinTreeSlideshow.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
-* [{{ book.lang.SampleAia }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow/ColinTreeSlideshowTest.aia)  
-* [{{ book.lang.SampleApk }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow/ColinTreeSlideshowTest.apk) - Appinventor  
-* [{{ book.lang.SampleApk }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow/ColinTreeSlideshowTest_thunkable.apk) - Thunkable  
+### 下载地址
+* 最后更新 2017.9.24 (v2)
+* <a href="/aix/cn.colintree.aix.ColinTreeSlideshow.aix" target="_blank">下载1(本站)</a>
+* [样例aia](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow_v2/ColinTreeSlideshowTest.aia)  
+* [样例apk](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow_v2/ColinTreeSlideshowTest_appinventor.apk) - Appinventor  
+* [样例apk](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow_v2/ColinTreeSlideshowTest_thunkable.apk) - Thunkable  
+
+### 更新记录
+
+* Version 2 (2017.9.24)  
+  融合了新组件[AsyncImageLoader](AsyncImageLoader)  
+  现在直接加载在线图片也不会卡啦  
+  [GitHub Release](https://github.com/ColinTree/aix_colintree_cn/releases/tag/ColinTreeSlideShow_v2)
+
+* Version 1 (2017.9.17)  
+  [GitHub Release](https://github.com/ColinTree/aix_colintree_cn/releases/tag/ColinTreeSlideShow)

@@ -26,15 +26,15 @@ Do not need to get stuck while loading online image!
 
   ![](../images/AsyncImageLoader/Method.png)
 
-### {{ book.lang.Download }}
+### Download
 
-* {{ book.lang.LastUpdate }} 2017.9.24
-* <a href="/aix/cn.colintree.aix.AsyncImageLoader.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
+* Last update 2017.9.24
+* <a href="/aix/cn.colintree.aix.AsyncImageLoader.aix" target="_blank">Mirror 1 (This website)</a>
 
 ### Sample
 
-* [{{ book.lang.SampleAia }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/AsyncImageLoaderTest/AsyncImageLoaderTest_en.aia)   
-* [{{ book.lang.SampleApk }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/AsyncImageLoaderTest/AsyncImageLoaderTest_en.apk) 
+* [Sample aia](https://github.com/ColinTree/aix_colintree_cn/releases/download/AsyncImageLoaderTest/AsyncImageLoaderTest_en.aia)   
+* [Sample apk](https://github.com/ColinTree/aix_colintree_cn/releases/download/AsyncImageLoaderTest/AsyncImageLoaderTest_en.apk) 
 
 while the app is running in a same network environment, the result has a large difference  
 ![](../images/AsyncImageLoader/Sample_Screenshot.png)

@@ -2,7 +2,8 @@
 
 ---
 
-Using one extension component to finish this job!
+Using one extension component to finish this job!  
+**[2017.9.24 Update available](#Update%20log) now asynchronous loading supported, no getting stuck any more**
 
 ### How to use
 
@@ -37,6 +38,10 @@ Using one extension component to finish this job!
   
   ![](../images/ColinTreeSlideShow/Properties.png)
 
+* ImageWhileLoading (added in v2)
+
+  ![](../images/ColinTreeSlideshow/v2_newProperties.png)
+
 
 ### All the events and methods
 
@@ -48,6 +53,11 @@ Using one extension component to finish this job!
   * Swiped (after scroll finished)
 
   ![](../images/ColinTreeSlideShow/Events.png)
+
+  * ImageLoaded (added in v2)
+  * ImageLoadFailed (added in v2)
+
+  ![](../images/ColinTreeSlideshow/v2_newEvents.png)
 
 * Methods:
   * AddPhoto
@@ -73,10 +83,19 @@ A property that is not on design page
   ![](../images/ColinTreeSlideShow/CurrentSlide.png)
 
 
+### Download
+* Last update 2017.9.24 (v2)
+* <a href="/aix/cn.colintree.aix.ColinTreeSlideshow.aix" target="_blank">Mirror 1 (This website)</a>
+* [Sample aia](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow_v2/ColinTreeSlideshowTest.aia)  
+* [Sample apk](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow_v2/ColinTreeSlideshowTest_appinventor.apk) - Appinventor  
+* [Sample apk](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow_v2/ColinTreeSlideshowTest_thunkable.apk) - Thunkable  
 
-### {{ book.lang.Download }}  
-* {{ book.lang.LastUpdate }} 2017.9.17
-* <a href="/aix/cn.colintree.aix.ColinTreeSlideshow.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
-* [{{ book.lang.SampleAia }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow/ColinTreeSlideshowTest.aia)  
-* [{{ book.lang.SampleApk }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow/ColinTreeSlideshowTest.apk) - Appinventor  
-* [{{ book.lang.SampleApk }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeSlideShow/ColinTreeSlideshowTest_thunkable.apk) - Thunkable  
+### Update log
+
+* Version 2 (2017.9.24)  
+  Merged [AsyncImageLoader](AsyncImageLoader)  
+  No more stucking when load online image  
+  [GitHub Release](https://github.com/ColinTree/aix_colintree_cn/releases/tag/ColinTreeSlideShow_v2)
+
+* Version 1 (2017.9.17)  
+  [GitHub Release](https://github.com/ColinTree/aix_colintree_cn/releases/tag/ColinTreeSlideShow)

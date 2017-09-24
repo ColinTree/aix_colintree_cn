@@ -28,16 +28,16 @@
 
 ![](../images/ColinTreeNinePatch/methods.png)
 
-### {{ book.lang.Download }}
+### 下载地址
 
-* {{ book.lang.LastUpdate }} 2017.8.31
-* <a href="/aix/cn.colintree.aix.ColinTreeNinePatch.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
+* 最后更新 2017.8.31
+* <a href="/aix/cn.colintree.aix.ColinTreeNinePatch.aix" target="_blank">下载1(本站)</a>
 
 ### 样例
 
-* [{{ book.lang.SampleAia }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_zh.aia)  
+* [样例aia](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_zh.aia)  
   <a href="http://app.gzjkw.net/?repo=aix.colintree.cn/templates/ColinTreeNinePatchTestzh/ColinTreeNinePatchTestzh.asc" target="_blank">使用广州电教馆服务器打开</a>  
-* [{{ book.lang.SampleApk }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_zh.apk)  
+* [样例apk](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_zh.apk)  
 
 现有一张已经编译过的素材menu_dropdown_panel_styled.9.png  
 如果使用ColinTreeNinepatch设置到按钮上，可以正常显示为9patch样式  
@@ -61,5 +61,5 @@
 等待编译完成，在OUTPUT文件夹中即可找到编译过后没有黑线的.9.png文件。  
 
 已经编译过的文件会把黑线所表达的信息写入图片中，凭肉眼无法识别，但Android运行中可以读取得到。所以在编译过后不要对图片做任何的处理！
-* {{ book.lang.LastUpdate }} 2017.8.31
-* <a href="/aix/ColinTree_9patch_compiler.zip" target="_blank">{{ book.lang.Mirror1 }}</a>
+* 最后更新 2017.8.31
+* <a href="/aix/ColinTree_9patch_compiler.zip" target="_blank">下载1(本站)</a>

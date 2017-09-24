@@ -108,5 +108,5 @@ And the properties are: (the order of the properties cannot be control by code, 
 
 
 
-### {{ book.lang.Download }}  
+### Download  
   Release later, sorry~

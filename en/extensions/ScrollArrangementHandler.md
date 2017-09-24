@@ -63,6 +63,6 @@ Update on 2017.8.26:
 
   ![](../images/ScrollArrangementHandler/VerticalScrollArrHandler.methods.png)
 
-### {{ book.lang.Download }}
-* {{ book.lang.LastUpdate }} 2017.8.26
-* <a href="/aix/cn.colintree.aix.ScrollArrangementHandler.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
+### Download
+* Last update 2017.8.26
+* <a href="/aix/cn.colintree.aix.ScrollArrangementHandler.aix" target="_blank">Mirror 1 (This website)</a>

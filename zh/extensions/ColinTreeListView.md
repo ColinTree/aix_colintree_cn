@@ -101,5 +101,5 @@ ColinTreeListView提供了可以供实时更改的列表效果
 
 
 
-### {{ book.lang.Download }}  
+### 下载地址  
   暂不放出，敬请谅解

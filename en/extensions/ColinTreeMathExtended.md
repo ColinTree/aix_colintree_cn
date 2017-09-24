@@ -26,8 +26,8 @@ Extended the math methods  of Appinventor (& thunkable):
 * **Integer\***  if a decimal is provided, it will rounded down. For example, 2.5 will be rounded down into 2
 * **Non-negative Integer\***  I did not try what will happen if negative is provided...
 
-### {{ book.lang.Download }}
-* {{ book.lang.LastUpdate }} 2017.8.17
-* <a href="/aix/cn.colintree.aix.ColinTreeMathExtended.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
-* [{{ book.lang.Mirror2 }}](https://raw.githubusercontent.com/OpenSourceAIX/ColinTreeMathExtended/master/cn.colintree.aix.ColinTreeMathExtended.aix)
-* [{{ book.lang.Source }}](https://github.com/OpenSourceAIX/ColinTreeMathExtended)
+### Download
+* Last update 2017.8.17
+* <a href="/aix/cn.colintree.aix.ColinTreeMathExtended.aix" target="_blank">Mirror 1 (This website)</a>
+* [Mirror 2](https://raw.githubusercontent.com/OpenSourceAIX/ColinTreeMathExtended/master/cn.colintree.aix.ColinTreeMathExtended.aix)
+* [Source](https://github.com/OpenSourceAIX/ColinTreeMathExtended)

@@ -30,17 +30,17 @@ Now with [NinePatchChunk](https://github.com/Anatolii/NinePatchChunk) liburary (
 
 ![](../images/ColinTreeNinePatch/methods.png)
 
-### {{ book.lang.Download }}
+### Download
 
-* {{ book.lang.LastUpdate }} 2017.8.31
-* <a href="/aix/cn.colintree.aix.ColinTreeNinePatch.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
+* Last update 2017.8.31
+* <a href="/aix/cn.colintree.aix.ColinTreeNinePatch.aix" target="_blank">Mirror 1 (This website)</a>
 
 ### Sample
 
-* [{{ book.lang.SampleAia }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_en.aia)  
+* [Sample aia](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_en.aia)  
   [Open with Mit Appinventor](http://ai2.appinventor.mit.edu/?repo=aix.colintree.cn/templates/ColinTreeNinePatchTesten/ColinTreeNinePatchTesten.asc)  
   [Open with Thunkable](http://app.thunkable.com/?repo=aix.colintree.cn/templates/ColinTreeNinePatchTesten/ColinTreeNinePatchTesten.asc)
-* [{{ book.lang.SampleApk }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_en.apk)  
+* [Sample apk](https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_en.apk)  
 
 Now here is a compiled picture "menu_dropdown_panel_styled.9.png"  
 If it is set onto the Button1 by ColinTreeNinepatch, it works well with 9-patch rules  
@@ -62,5 +62,5 @@ when compiler finish its job, you can go to the "OUTPUT" folder and get your com
 
 The compiled 9-Patch images crops the black line off, and write the chunk data into the file. It is not visible for us but it is for phones!  
 So DO NOT do anything else but copy or upload after the images are compiled. 
-* {{ book.lang.LastUpdate }} 2017.8.31
-* <a href="/aix/ColinTree_9patch_compiler.zip" target="_blank">{{ book.lang.Mirror1 }}</a>
+* Last update 2017.8.31
+* <a href="/aix/ColinTree_9patch_compiler.zip" target="_blank">Mirror 1 (This website)</a>

@@ -26,8 +26,8 @@
 * **整数\***  如果在这里填入一个小数，会自动向下取整，比如2.5取整为2
 * **正整数\***  我自己也还没有尝试如果填负数会怎么样……
 
-### {{ book.lang.Download }}
-* {{ book.lang.LastUpdate }} 2017.8.17
-* <a href="/aix/cn.colintree.aix.ColinTreeMathExtended.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
-* [{{ book.lang.Mirror2 }}](https://raw.githubusercontent.com/OpenSourceAIX/ColinTreeMathExtended/master/cn.colintree.aix.ColinTreeMathExtended.aix)
-* [{{ book.lang.Source }}](https://github.com/OpenSourceAIX/ColinTreeMathExtended)
+### 下载地址
+* 最后更新 2017.8.17
+* <a href="/aix/cn.colintree.aix.ColinTreeMathExtended.aix" target="_blank">下载1(本站)</a>
+* [下载2](https://raw.githubusercontent.com/OpenSourceAIX/ColinTreeMathExtended/master/cn.colintree.aix.ColinTreeMathExtended.aix)
+* [源代码](https://github.com/OpenSourceAIX/ColinTreeMathExtended)

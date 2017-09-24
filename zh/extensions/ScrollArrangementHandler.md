@@ -63,6 +63,6 @@
 
   ![](../images/ScrollArrangementHandler/VerticalScrollArrHandler.methods.png)
 
-### {{ book.lang.Download }}
-* {{ book.lang.LastUpdate }} 2017.8.26
-* <a href="/aix/cn.colintree.aix.ScrollArrangementHandler.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
+### 下载地址
+* 最后更新 2017.8.26
+* <a href="/aix/cn.colintree.aix.ScrollArrangementHandler.aix" target="_blank">下载1(本站)</a>

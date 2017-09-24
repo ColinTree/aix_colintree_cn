@@ -26,15 +26,15 @@
 
   ![](../images/AsyncImageLoader/Method.png)
 
-### {{ book.lang.Download }}
+### 下载地址
 
-* {{ book.lang.LastUpdate }} 2017.9.24
-* <a href="/aix/cn.colintree.aix.AsyncImageLoader.aix" target="_blank">{{ book.lang.Mirror1 }}</a>
+* 最后更新 2017.9.24
+* <a href="/aix/cn.colintree.aix.AsyncImageLoader.aix" target="_blank">下载1(本站)</a>
 
 ### 样例
 
-* [{{ book.lang.SampleAia }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/AsyncImageLoaderTest/AsyncImageLoaderTest_zh.aia)   
-* [{{ book.lang.SampleApk }}](https://github.com/ColinTree/aix_colintree_cn/releases/download/AsyncImageLoaderTest/AsyncImageLoaderTest_zh.apk)  
+* [样例aia](https://github.com/ColinTree/aix_colintree_cn/releases/download/AsyncImageLoaderTest/AsyncImageLoaderTest_zh.aia)   
+* [样例apk](https://github.com/ColinTree/aix_colintree_cn/releases/download/AsyncImageLoaderTest/AsyncImageLoaderTest_zh.apk)  
 
 实际运行中，同个网络环境下的运行结果差距很大。  
 ![](../images/AsyncImageLoader/Sample_Screenshot.png)
