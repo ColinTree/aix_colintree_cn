@@ -11,6 +11,10 @@
 就这么简单：  
 ![](../images/PasswordBoxSwitch/code.png)
 
+> 2017.9.27 21:55左右我更新了拓展文件  
+> 如果将这之前的旧拓展覆盖成新的，会导致原有代码块变成下图中，上面那个代码块那样。只需手动替换即可  
+> ![](../images/PasswordBoxSwitch/v2_fixing.png)
+
 ### 下载地址
 
 * 最后更新 2017.9.27
