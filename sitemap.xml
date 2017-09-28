@@ -3,6 +3,7 @@
 <url> <loc>http://aix.colintree.cn/en/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/en/HowToInstallExtensions.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/en/extensions/SUMMARY.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/en/extensions/AutoCompleteBox.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/en/extensions/PasswordBoxSwitch.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/en/extensions/AsyncImageLoader.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/en/extensions/ColinTreeSlideShow.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -20,6 +21,7 @@
 <url> <loc>http://aix.colintree.cn/zh/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/HowToInstallExtensions.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/extensions/SUMMARY.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/AutoCompleteBox.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/extensions/PasswordBoxSwitch.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/extensions/AsyncImageLoader.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeSlideShow.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
