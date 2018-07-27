@@ -1,0 +1,26 @@
+[
+    {
+        "name": "ColinTreeNinePatchTestzh",
+        "subtitle": "ColinTreeNinePatch样例app",
+        "description": "<p>这是<a href=\"http://aix.colintree.cn/zh/extensions/ColinTreeNinePatch.html\" target=\"_blank\">ColinTreeNinePatch</a>的样例app\n可以通过这个样例大致了解到9-patch的使用方式，以及运行时的表现方式</p>\n\n<p>By ColinTree<br>Email: <a href=\\\"mailto://502470184@qq.com\\\">502470184@qq.com</a></p>",
+        "thumbnail": "",
+        "screenshot": "aiaRuntimeScreenshot.png",
+        "zip": "ColinTreeNinePatchTestzh.zip"
+    },
+    {
+        "name": "BaiduFanyiTest",
+        "subtitle": "百度翻译API",
+        "description": "<p>使用<a href=\\\"http://aix.colintree.cn/BaiduFanyi\\\" target=\\\"_blank\\\">ColinTreeBaiduFanyi</a>拓展组件的简易翻译软件</p><p>By ColinTree<br>Email: <a href=\\\"mailto://502470184@qq.com\\\">502470184@qq.com</a></p>",
+        "thumbnail": "BaiduFanyi_Appinventor_Icon.png",
+        "screenshot": "aiaRuntimeScreenshot2.png",
+        "zip": "BaiduFanyiTest.aia"
+    },
+    {
+        "name": "ColinTreeNinePatchTesten",
+        "subtitle": "ColinTreeNinePatch Sample app",
+        "description": "This is the sample app of <a href=\"http://aix.colintree.cn/zh/extensions/ColinTreeNinePatch.html\" target=\"_blank\">ColinTreeNinePatch</a>\n\n<p>By ColinTree<br>Email: <a href=\\\"mailto://502470184@qq.com\\\">502470184@qq.com</a></p>",
+        "thumbnail": "",
+        "screenshot": "aiaRuntimeScreenshot.png",
+        "zip": "ColinTreeNinePatch_en.aia"
+    }
+]

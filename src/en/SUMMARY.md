@@ -1,0 +1,23 @@
+# Summary
+
+* [Home Page](README.md)
+* [How to Install Extensions](HowToInstallExtensions.md)
+* [My current extensions:](SUMMARY.md)
+    * [Custom ListView - ColinTreeListView *](extensions/ColinTreeListView.md)
+    * [AutoComplete plugin - AutoCompleteBox](extensions/AutoCompleteBox.md)
+    * [Scroll Arrangement Handlers (v2+)](extensions/ScrollArrangementHandlers.md)
+    * [ListView advance customize](extensions/ListViewCustomize.md)
+    * [SwipeRefresh](extensions/SwipeRefresh.md)
+    * [Password visibility - PasswordBoxSwitch](extensions/PasswordBoxSwitch.md)
+    * [Asynchronous Image Loader - AsyncImageLoader](extensions/AsyncImageLoader.md)
+    * [SlideShow (Carousel) - ColinTreeSlideShow](extensions/ColinTreeSlideShow.md)
+    * [9-patch supporter - ColinTreeNinePatch](extensions/ColinTreeNinePatch.md)
+    * [Baidu Translate (API) - BaiduFanyi](extensions/BaiduFanyi.md)
+    * [Check first run - ColinTreeFirstRun *](extensions/ColinTreeFirstRun.md)
+    * [Go Home Screen - ColinTreeGoHome *](extensions/ColinTreeGoHome.md)
+    * [Get phone ID  - ColinTreeIMEI *](extensions/ColinTreeIMEI.md)
+    * [Math (name shortened) - ColinTreeMath *](extensions/ColinTreeMath.md)
+    * [Math Extension - ColinTreeMathExtended *](extensions/ColinTreeMathExtended.md)
+    * [System toast - ColinTreeNotifier *](extensions/ColinTreeNotifier.md)
+    * [Get system language - ColinTreeSysLang *](extensions/ColinTreeSysLang.md)
+

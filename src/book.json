@@ -1,0 +1,32 @@
+{
+    "author": "Colintree <502470184@qq.com>",
+    "description": "Appinventor / Thunkable Extensions",
+    "generator": "site",
+    "plugins": [
+    	"-sharing","-livereload","-fontsettings","-search","-lunr",
+        "search-pro","language-picker","cnzz","sitemap2","page-footer-ex",
+        "ai2-blocks","splitter"
+    ],
+    "pluginsConfig": {
+        "cnzz": {
+            "visible": true,
+            "style": "0",
+            "siteid": "1263936342"
+        },
+        "sitemap2": {
+            "hostname": "http://aix.colintree.cn/"
+        },
+        "page-footer-ex": {
+            "copyright": "By ColinTree ([email me](mailto://502470184@qq.com)) <br> [**捐赠/donate**](/)",
+            "markdown": true,
+            "update_label": "**Last update:** ",
+            "update_format": "YYYY-MM-DD"
+        },
+        "ai2-blocks": {
+            "scale_level": 0.9,
+            "margin": 4
+        }
+    },
+    "variables": {},
+    "title": "Appinventor/Thunkable Extensions"
+}

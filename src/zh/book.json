@@ -1,0 +1,18 @@
+{
+    "author": "Colintree <502470184@qq.com>",
+    "links": {
+        "sidebar": {
+            "<b><big>欢迎来到aix.colintree.cn！</big></b>": "",
+            "> ColinTree主页": "http://www.colintree.cn",
+            "> 自己搭建网络数据库服务器": "http://tsp.colintree.cn"
+        }
+    },
+    "pluginsConfig": {
+        "ai2-blocks": {
+            "text_when": "当",
+            "text_do": "执行",
+            "text_call": "调用",
+            "text_set": "设置"
+        }
+    }
+}
