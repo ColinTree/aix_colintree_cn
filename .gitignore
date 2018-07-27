@@ -1,2 +1,4 @@
 node_modules
 .vscode
+docs/en/extensions/*.md
+docs/zh/extensions/*.md
