@@ -1,0 +1,548 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Asynchronous Image Loader - AsyncImageLoader · Appinventor/Thunkable Extensions</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Colintree <502470184@qq.com>">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ai2-blocks/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="ColinTreeSlideShow.html" />
+    
+    
+    <link rel="prev" href="PasswordBoxSwitch.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="" target="_blank" class="custom-link"><b><big>Welcome to aix.colintree.cn！</big></b></a>
+        </li>
+    
+        
+        <li>
+            <a href="http://www.colintree.cn" target="_blank" class="custom-link">> Homepage of ColinTree</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Home Page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../HowToInstallExtensions.html">
+            
+                <a href="../HowToInstallExtensions.html">
+            
+                    
+                    How to Install Extensions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../SUMMARY.html">
+            
+                <a href="../SUMMARY.html">
+            
+                    
+                    My current extensions:
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="ColinTreeListView.html">
+            
+                <a href="ColinTreeListView.html">
+            
+                    
+                    Custom ListView - ColinTreeListView *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="AutoCompleteBox.html">
+            
+                <a href="AutoCompleteBox.html">
+            
+                    
+                    AutoComplete plugin - AutoCompleteBox
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="ScrollArrangementHandlers.html">
+            
+                <a href="ScrollArrangementHandlers.html">
+            
+                    
+                    Scroll Arrangement Handlers (v2+)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="ListViewCustomize.html">
+            
+                <a href="ListViewCustomize.html">
+            
+                    
+                    ListView advance customize
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="SwipeRefresh.html">
+            
+                <a href="SwipeRefresh.html">
+            
+                    
+                    SwipeRefresh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="PasswordBoxSwitch.html">
+            
+                <a href="PasswordBoxSwitch.html">
+            
+                    
+                    Password visibility - PasswordBoxSwitch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.7" data-path="AsyncImageLoader.html">
+            
+                <a href="AsyncImageLoader.html">
+            
+                    
+                    Asynchronous Image Loader - AsyncImageLoader
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="ColinTreeSlideShow.html">
+            
+                <a href="ColinTreeSlideShow.html">
+            
+                    
+                    SlideShow (Carousel) - ColinTreeSlideShow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="ColinTreeNinePatch.html">
+            
+                <a href="ColinTreeNinePatch.html">
+            
+                    
+                    9-patch supporter - ColinTreeNinePatch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="BaiduFanyi.html">
+            
+                <a href="BaiduFanyi.html">
+            
+                    
+                    Baidu Translate (API) - BaiduFanyi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="ColinTreeFirstRun.html">
+            
+                <a href="ColinTreeFirstRun.html">
+            
+                    
+                    Check first run - ColinTreeFirstRun *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="ColinTreeGoHome.html">
+            
+                <a href="ColinTreeGoHome.html">
+            
+                    
+                    Go Home Screen - ColinTreeGoHome *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="ColinTreeIMEI.html">
+            
+                <a href="ColinTreeIMEI.html">
+            
+                    
+                    Get phone ID  - ColinTreeIMEI *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="ColinTreeMath.html">
+            
+                <a href="ColinTreeMath.html">
+            
+                    
+                    Math (name shortened) - ColinTreeMath *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="ColinTreeMathExtended.html">
+            
+                <a href="ColinTreeMathExtended.html">
+            
+                    
+                    Math Extension - ColinTreeMathExtended *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="ColinTreeNotifier.html">
+            
+                <a href="ColinTreeNotifier.html">
+            
+                    
+                    System toast - ColinTreeNotifier *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="ColinTreeSysLang.html">
+            
+                <a href="ColinTreeSysLang.html">
+            
+                    
+                    Get system language - ColinTreeSysLang *
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Asynchronous Image Loader - AsyncImageLoader</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="asynchronous-image-loader---asyncimageloader">Asynchronous Image Loader - AsyncImageLoader</h1>
+<hr>
+<p>Do not need to get stuck while loading online image! </p>
+<h2 id="events">Events</h2>
+<ul>
+<li>ImageLoadFailed
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22ImageLoadFailed%22,%20%22componentName%22:%22AsyncImageLoader1%22,%20%22param%22:%20%5B%22component%22,%22path%22%5D%7D"></div></li>
+<li>ImageLoaded (Succeed)
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22ImageLoaded%22,%20%22param%22:%20%5B%22component%22,%22path%22%5D%7D"></div></li>
+</ul>
+<h2 id="methods">Methods</h2>
+<ul>
+<li>SetArrangementImage (TableArrangement has not a Image property, so it is not supported)
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22SetArrangementImage%22,%20%22param%22:%5B%22layoutArrangement%22,%22path%22%5D%7D"></div></li>
+<li>SetButtonBaseImage (Button, DatePicker, ListPicker, and TimePicker are supproted)
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22SetButtonBaseImage%22,%20%22param%22:%5B%22buttonBaseComponent%22,%22path%22%5D%7D"></div></li>
+<li><p>SetImagePicture (For Image only)
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22SetImagePicture%22,%20%22param%22:%5B%22imageComponent%22,%22path%22%5D%7D"></div></p>
+<p>(Totally 9 components supported)<br>P.S. these methods can set up the background image, but the <code>Image</code> property will not be changed<br>e.g. I set a online picture to a empty Image comopnent through <code>SetImagePicture</code>, but the property Image.Picture is still empty though the component has already get a picture.</p>
+</li>
+</ul>
+<h2 id="download">Download</h2>
+<ul>
+<li>Last update 2017.9.24</li>
+<li><a href="../aix/cn.colintree.aix.AsyncImageLoader.aix" target="_blank">Mirror 1 (This website)</a></li>
+</ul>
+<h2 id="sample">Sample</h2>
+<ul>
+<li><a href="https://github.com/ColinTree/aix_colintree_cn/releases/download/AsyncImageLoaderTest/AsyncImageLoaderTest_en.aia" target="_blank">Sample aia</a>   </li>
+<li><a href="https://github.com/ColinTree/aix_colintree_cn/releases/download/AsyncImageLoaderTest/AsyncImageLoaderTest_en.apk" target="_blank">Sample apk</a> </li>
+</ul>
+<p>while the app is running in a same network environment, the result has a large difference<br><img src="../images/AsyncImageLoader/Sample_Screenshot.png" alt=""></p>
+<ul>
+<li>Using component propertes make the screen stop responsing for a while, until all the images are loaded (1.3 second stucking in screenshot)<br><img src="../images/AsyncImageLoader/Sample_Raw.png" alt=""></li>
+<li>Using extension to set up the images, it just takes about 0.58 second to load, and not getting stuck<br><img src="../images/AsyncImageLoader/Sample_Extension.png" alt=""></li>
+</ul>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> By ColinTree (<a href="mailto://502470184@qq.com" target="_blank">email me</a>) <br> <a href=".."><strong>&#x6350;&#x8D60;/donate</strong></a> </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> <strong>Last update:</strong>  2018-07-27 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="PasswordBoxSwitch.html" class="navigation navigation-prev " aria-label="Previous page: Password visibility - PasswordBoxSwitch">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="ColinTreeSlideShow.html" class="navigation navigation-next " aria-label="Next page: SlideShow (Carousel) - ColinTreeSlideShow">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Asynchronous Image Loader - AsyncImageLoader","level":"1.3.7","depth":2,"next":{"title":"SlideShow (Carousel) - ColinTreeSlideShow","level":"1.3.8","depth":2,"path":"extensions/ColinTreeSlideShow.md","ref":"extensions/ColinTreeSlideShow.md","articles":[]},"previous":{"title":"Password visibility - PasswordBoxSwitch","level":"1.3.6","depth":2,"path":"extensions/PasswordBoxSwitch.md","ref":"extensions/PasswordBoxSwitch.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-livereload","-fontsettings","-search","-lunr","search-pro","language-picker","cnzz","sitemap2","page-footer-ex","ai2-blocks","splitter"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"language-picker":{"grid-columns":3},"page-footer-ex":{"copyright":"By ColinTree ([email me](mailto://502470184@qq.com)) <br> [**捐赠/donate**](/)","markdown":true,"update_format":"YYYY-MM-DD","update_label":"**Last update:** "},"splitter":{},"search-pro":{},"ai2-blocks":{"scale_level":0.9,"margin":4},"cnzz":{"style":"0","visible":true,"siteid":"1263936342"},"highlight":{},"sitemap2":{"hostname":"http://aix.colintree.cn/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Colintree <502470184@qq.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Appinventor/Thunkable Extensions","language":"en","links":{"sidebar":{"<b><big>Welcome to aix.colintree.cn！</big></b>":"","> Homepage of ColinTree":"http://www.colintree.cn"}},"gitbook":"*","description":"Appinventor / Thunkable Extensions"},"file":{"path":"extensions/AsyncImageLoader.md","mtime":"2018-07-27T14:26:54.813Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-27T15:03:08.080Z"},"basePath":"..","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-cnzz/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ai2-blocks/blockly_compressed.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ai2-blocks/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+
+    </body>
+</html>
+
