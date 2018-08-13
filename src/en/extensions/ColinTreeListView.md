@@ -76,8 +76,8 @@ Higher level "ListView", using extensions!
 * Element events:
   * ElementClick
     {% Ai2Event %}{"name":"ElementClick", "param":["elementIndex"], "componentName":"ColinTreeListView1"}{% endAi2Event %}
-    * *related property: LastClickedIcon*
-      {% Ai2Property %}{"name":"LastClickedIcon"}{% endAi2Property %}
+    * *related property: LastClickedElement*
+      {% Ai2Property %}{"name":"LastClickedElement"}{% endAi2Property %}
   * ElementLongClick
     {% Ai2Event %}{"name":"ElementLongClick", "param":["elementIndex"]}{% endAi2Event %}
     * *related property: LastLongClickedElement*

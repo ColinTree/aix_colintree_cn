@@ -74,7 +74,7 @@
   * 列表项被点击
     {% Ai2Event %}{"name":"ElementClick", "param":["elementIndex"], "componentName":"ColinTreeListView1"}{% endAi2Event %}
     * *相关属性: 最后一次被点击的列表项（的编号）
-      {% Ai2Property %}{"name":"LastClickedIcon"}{% endAi2Property %}
+      {% Ai2Property %}{"name":"LastClickedElement"}{% endAi2Property %}
   * 列表项被长按
     {% Ai2Event %}{"name":"ElementLongClick", "param":["elementIndex"]}{% endAi2Event %}
     * 相关属性: 最后一次被长按的列表项（的列表项编号）
