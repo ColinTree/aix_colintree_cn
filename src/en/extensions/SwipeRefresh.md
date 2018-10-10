@@ -65,13 +65,12 @@ Swipe it, and refresh it.
 
 ## Download
 
-* Last update 2017.10.6
-* <a href="/aix/cn.colintree.aix.SwipeRefresh.Stable.aix" target="_blank">Stable (but larger)</a>
-* <a href="/aix/cn.colintree.aix.SwipeRefresh.Compressed.aix" target="_blank">Compressed</a>
+* Last update 2018.7.28 (v2)
+* <a href="/aix/cn.colintree.aix.SwipeRefresh.aix" target="_blank">Mirror 1 (This website)</a>
+* [Mirror 2 (Github release)](https://github.com/OpenSourceAIX/SwipeRefresh/releases)
+* [Source Code](https://github.com/OpenSourceAIX/SwipeRefresh)
 
 ## Sample
-
-(Compressed package used)
 
 * [Sample aia](https://github.com/ColinTree/aix_colintree_cn/releases/download/SwipeRefreshTest/SwipeRefreshTest_en.aia)   
 * [Sample apk](https://github.com/ColinTree/aix_colintree_cn/releases/download/SwipeRefreshTest/SwipeRefreshTest_en_appinventor.apk) by AppInventor  

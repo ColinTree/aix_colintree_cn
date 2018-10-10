@@ -65,13 +65,12 @@
 
 ## 下载地址
 
-* 最后更新 2017.10.6
-* <a href="/aix/cn.colintree.aix.SwipeRefresh.Stable.aix" target="_blank">稳定版</a>
-* <a href="/aix/cn.colintree.aix.SwipeRefresh.Compressed.aix" target="_blank">压缩版</a>
+* 最后更新 2018.7.28 (v2)
+* <a href="/aix/cn.colintree.aix.SwipeRefresh.aix" target="_blank">下载1(本站)</a>
+* [下载2(Github release)](https://github.com/OpenSourceAIX/SwipeRefresh/releases)
+* [源码](https://github.com/OpenSourceAIX/SwipeRefresh)
 
 ## 样例
-
-（使用压缩版）
 
 * [样例aia](https://github.com/ColinTree/aix_colintree_cn/releases/download/SwipeRefreshTest/SwipeRefreshTest_zh.aia)   
 * [样例apk](https://github.com/ColinTree/aix_colintree_cn/releases/download/SwipeRefreshTest/SwipeRefreshTest_zh.apk)
