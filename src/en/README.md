@@ -22,4 +22,3 @@ And the ones that had been open-sourced will get a star(*) with it
 <br>
 
 If you want to go to the old website of mine, [**CLICK HERE**](http://appextension.applinzi.com/en/)
-[![](./images/www.source-space.cn.png)](http://appextension.applinzi.com/en/)

@@ -17,5 +17,4 @@
 左边的列表是我所建立的拓展组件的列表，其中已经开源的会附带一个星号（\*）  
 如果不知道如何导入拓展组件，请点击[这里](HowToInstallExtensions.md)
 
-** 希望访问原站“Appinventor 拓展组件&教程” 的朋友请点击**[**这里**](http://appextension.applinzi.com/)** **  
-[![](./images/www.source-space.cn.png)](http://appextension.applinzi.com/)
+** 希望访问原站“Appinventor 拓展组件&教程” 的朋友请点击**[**这里**](http://appextension.applinzi.com/)** **
