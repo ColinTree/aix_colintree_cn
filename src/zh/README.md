@@ -2,7 +2,7 @@
 
 大家好我是ColinTree，一名小小的高中生。  
 由于热爱钻研各种代码活，我为Appinventor&Thunkable开发了一些拓展组件  
-在此悉数奉上~  
+在此悉数奉上~
 
 ---ColinTree 8/15/2017
 

@@ -1,8 +1,7 @@
 # Appinventor & Thunkable Extensions
 
-Hello i m ColinTree, just a high school student.  
-I had made some extensions for Appinventor & Thunkable, when i discovering the coding world  
-and i had post it here~  
+Hello I'm ColinTree, a senior high school student.  
+I had made some extensions for App Inventor & Thunkable Classic, and i had post it here~
 
 ---ColinTree 8/15/2017
 
