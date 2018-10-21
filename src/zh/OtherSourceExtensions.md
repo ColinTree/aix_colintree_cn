@@ -9,7 +9,7 @@
 
 ## 各个社区
 
-* [Thunkable 社区](https://community.thunkable.com) ***Recommended source for searching extensions**
+* [Thunkable 社区](https://community.thunkable.com) ***推荐的拓展来源**
 * [Makeroid 社区](https://community.makeroid.io/)
 * [Appybuilder 社区](https://community.appybuilder.com/)
 * [Block2Code 社区](https://community.block2code.com/)
