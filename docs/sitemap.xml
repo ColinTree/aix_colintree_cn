@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url> <loc>http://aix.colintree.cn/en/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/en/HowToInstallExtensions.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/en/OtherSourceExtensions.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/en/SUMMARY.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/en/extensions/ColinTreeListView.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/en/extensions/AutoCompleteBox.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -22,6 +23,7 @@
 <url> <loc>http://aix.colintree.cn/en/extensions/ColinTreeSysLang.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/HowToInstallExtensions.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/OtherSourceExtensions.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/SUMMARY.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeListView.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/extensions/AutoCompleteBox.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
