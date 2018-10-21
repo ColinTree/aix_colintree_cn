@@ -2,6 +2,7 @@
 
 * [Home Page](README.md)
 * [How to Install Extensions](HowToInstallExtensions.md)
+* [Other sources of extensions](OtherSourceExtensions.md)
 * [My current extensions:](SUMMARY.md)
     * [Custom ListView - ColinTreeListView *](extensions/ColinTreeListView.md)
     * [AutoComplete plugin - AutoCompleteBox](extensions/AutoCompleteBox.md)

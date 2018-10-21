@@ -2,6 +2,7 @@
 
 * [首页](README.md)
 * [拓展使用方法](HowToInstallExtensions.md)
+* [其他拓展来源](OtherSourceExtensions.md)
 * [已有拓展：](SUMMARY.md)
     * [自定义列表显示 - ColinTreeListView *](extensions/ColinTreeListView.md)
     * [文本输入框提示 - AutoCompleteBox](extensions/AutoCompleteBox.md)
