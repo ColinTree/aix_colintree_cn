@@ -4,6 +4,8 @@
 <url> <loc>http://aix.colintree.cn/zh/HowToInstallExtensions.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/OtherSourceExtensions.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/SUMMARY.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeMath.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeMathExtended.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeListView.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/extensions/AutoCompleteBox.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/extensions/ScrollArrangementHandlers.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -17,8 +19,6 @@
 <url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeFirstRun.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeGoHome.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeIMEI.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeMath.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeMathExtended.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeNotifier.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://aix.colintree.cn/zh/extensions/ColinTreeSysLang.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
