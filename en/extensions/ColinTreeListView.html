@@ -1,0 +1,833 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Custom ListView - ColinTreeListView * · Appinventor/Thunkable Extensions</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Colintree <502470184@qq.com>">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ai2-blocks/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="AutoCompleteBox.html" />
+    
+    
+    <link rel="prev" href="../SUMMARY.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="" target="_blank" class="custom-link"><b><big>Welcome to aix.colintree.cn！</big></b></a>
+        </li>
+    
+        
+        <li>
+            <a href="http://www.colintree.cn" target="_blank" class="custom-link">> Homepage of ColinTree</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Home Page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../HowToInstallExtensions.html">
+            
+                <a href="../HowToInstallExtensions.html">
+            
+                    
+                    How to Install Extensions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../OtherSourceExtensions.html">
+            
+                <a href="../OtherSourceExtensions.html">
+            
+                    
+                    Other sources of extensions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../SUMMARY.html">
+            
+                <a href="../SUMMARY.html">
+            
+                    
+                    My current extensions:
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1" data-path="ColinTreeListView.html">
+            
+                <a href="ColinTreeListView.html">
+            
+                    
+                    Custom ListView - ColinTreeListView *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="AutoCompleteBox.html">
+            
+                <a href="AutoCompleteBox.html">
+            
+                    
+                    AutoComplete plugin - AutoCompleteBox
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="ScrollArrangementHandlers.html">
+            
+                <a href="ScrollArrangementHandlers.html">
+            
+                    
+                    Scroll Arrangement Handlers (v2+)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="ListViewCustomize.html">
+            
+                <a href="ListViewCustomize.html">
+            
+                    
+                    ListView advance customize
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="SwipeRefresh.html">
+            
+                <a href="SwipeRefresh.html">
+            
+                    
+                    SwipeRefresh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="PasswordBoxSwitch.html">
+            
+                <a href="PasswordBoxSwitch.html">
+            
+                    
+                    Password visibility - PasswordBoxSwitch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="AsyncImageLoader.html">
+            
+                <a href="AsyncImageLoader.html">
+            
+                    
+                    Asynchronous Image Loader - AsyncImageLoader
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="ColinTreeSlideShow.html">
+            
+                <a href="ColinTreeSlideShow.html">
+            
+                    
+                    SlideShow (Carousel) - ColinTreeSlideShow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="ColinTreeNinePatch.html">
+            
+                <a href="ColinTreeNinePatch.html">
+            
+                    
+                    9-patch supporter - ColinTreeNinePatch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="BaiduFanyi.html">
+            
+                <a href="BaiduFanyi.html">
+            
+                    
+                    Baidu Translate (API) - BaiduFanyi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="ColinTreeFirstRun.html">
+            
+                <a href="ColinTreeFirstRun.html">
+            
+                    
+                    Check first run - ColinTreeFirstRun *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="ColinTreeGoHome.html">
+            
+                <a href="ColinTreeGoHome.html">
+            
+                    
+                    Go Home Screen - ColinTreeGoHome *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="ColinTreeIMEI.html">
+            
+                <a href="ColinTreeIMEI.html">
+            
+                    
+                    Get phone ID  - ColinTreeIMEI *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="ColinTreeMath.html">
+            
+                <a href="ColinTreeMath.html">
+            
+                    
+                    Math (name shortened) - ColinTreeMath *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" data-path="ColinTreeMathExtended.html">
+            
+                <a href="ColinTreeMathExtended.html">
+            
+                    
+                    Math Extension - ColinTreeMathExtended *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16" data-path="ColinTreeNotifier.html">
+            
+                <a href="ColinTreeNotifier.html">
+            
+                    
+                    System toast - ColinTreeNotifier *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.17" data-path="ColinTreeSysLang.html">
+            
+                <a href="ColinTreeSysLang.html">
+            
+                    
+                    Get system language - ColinTreeSysLang *
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Custom ListView - ColinTreeListView *</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="custom-listview---colintreelistview-">Custom ListView - ColinTreeListView *</h1>
+<hr>
+<p>Higher level &quot;ListView&quot;, using extensions!</p>
+<ul>
+<li><p>Update on 2018.7.27 (Version 10):</p>
+<ul>
+<li>Added Get <strong>by <a href="https://github.com/10MINT" target="_blank">@10MINT</a></strong></li>
+<li>Added LastLongClickedElement <strong>by <a href="https://github.com/10MINT" target="_blank">@10MINT</a></strong></li>
+<li>Fixes label cannot click on some platforms</li>
+</ul>
+</li>
+<li><p>Update on 2018.3.10 (Version 9):</p>
+<ul>
+<li>Fixed Error of Visiblility</li>
+<li>Added ClearCache(path) &amp; ClearAllCache() -- still in test, it should works</li>
+</ul>
+</li>
+<li><p>Update on 2018.3.4 (Version 8)</p>
+<ul>
+<li>Fixed extraButtonEnabled not implemented</li>
+<li>Added support of direct(static) functions in ColinTreeListViewElement</li>
+</ul>
+</li>
+<li><p>Update on 2018.2.25 (Version 7) <strong>THANK YOU <a href="https://community.thunkable.com/u/User81" target="_blank">@User81</a> FOR SPONSORING</strong>:</p>
+<ul>
+<li>Fixed that lastClickedElement starts from 0</li>
+<li>Fixed that images that cached by a same path would act wired when one of them is clicked</li>
+<li>Added a extra button</li>
+<li>Added property handler for every single element of the listview -&gt; <em><a href="#colintreelistviewelement">useage</a></em><br><img src="../images/ColinTreeListView/cap_v7_elementHandler.png" alt=""></li>
+</ul>
+</li>
+<li><p>Update on 2018.2.11 (Version 6):</p>
+<ul>
+<li>Added properties of text height (both main- &amp; sub-text)</li>
+</ul>
+</li>
+<li><p>Update on 2018.1.31 (Version 5):</p>
+<ul>
+<li>Added icon text related properties</li>
+<li>Added lastClickedElement &amp; lastClickedIcon</li>
+</ul>
+</li>
+<li><p>Update on 2017.12.30 (Version 4):</p>
+<ul>
+<li>Adapted to all platforms (ai2.appinventor.mit.edu , thunkable , etc.) There should not more NoSuchMethodError at anywhere.</li>
+</ul>
+</li>
+<li><p>Update on 2017.12.29 (version 3):</p>
+<ul>
+<li>Adapted to new Appinventor (since 2017.12.27, Companion 2.45) (Fixed NoSuchMethodError)</li>
+<li>Added properties related to image loading - AsyncImageLoad &amp; CacheImage (that in a same path)</li>
+<li>Added property - ScrollBottomAfterAdd</li>
+</ul>
+</li>
+</ul>
+<h2 id="how-to-use">How to use</h2>
+<ol>
+<li><p>Left a VerticalArrangement or a VerticalScrollArrangement, set the width and the height as you like.<br>Here is the sample:<br><img src="../images/ColinTreeListView/DesignPageScreenshot.png" alt=""></p>
+</li>
+<li><p>Before do anything like add a element, initialize it first:<br>Choose <strong>only one</strong> of the initialize method<br><img src="../images/ColinTreeListView/initialize.png" alt=""></p>
+</li>
+<li><p>Set the list<br>The &quot;set&quot; method required a list, and the list elements can be: </p>
+<ul>
+<li><strong>Single text element without icon</strong>:<br>The list element here is just a Text, and it will be shown in the element</li>
+<li><strong>Single text element without icon</strong>(same with the one above):<br>A sub-list with only one item is also allowed when creating a Single text element without icon.</li>
+<li><strong>Single text element with icon</strong>:<br>The sub-list with two item will be proceed as a Single text element with icon.<br>The first item is the icon path, when the second one is the text here.</li>
+<li><strong>Double text element with icon</strong>:<br>A list with at least three item, is being recognize as a Double text elemtnt with icon.
+And only the very first three items will be used as the parameters here.
+They are: icon(path), Main-text, and Sub-text</li>
+</ul>
+<p><strong>The three types of list element can exist when a ColinTreeListView is created</strong></p>
+<p>Sample code:<br><img src="../images/ColinTreeListView/SetCode.png" alt=""><br>Runtime screenshot (IconMultiParams checked):<br><img src="../images/ColinTreeListView/SetCodeScreenshot.png" alt=""></p>
+</li>
+</ol>
+<h2 id="events">Events</h2>
+<ul>
+<li><p>Element events:</p>
+<ul>
+<li>ElementClick
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22ElementClick%22,%20%22param%22:%5B%22elementIndex%22%5D,%20%22componentName%22:%22ColinTreeListView1%22%7D"></div><ul>
+<li><em>related property: LastClickedElement</em>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22LastClickedElement%22%7D"></div></li>
+</ul>
+</li>
+<li>ElementLongClick
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22ElementLongClick%22,%20%22param%22:%5B%22elementIndex%22%5D%7D"></div><ul>
+<li><em>related property: LastLongClickedElement</em>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22LastLongClickedElement%22%7D"></div></li>
+</ul>
+</li>
+<li>ElementTouchDown
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22ElementTouchDown%22,%20%22param%22:%5B%22elementIndex%22%5D%7D"></div></li>
+<li>ElementTouchUp
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22ElementTouchUp%22,%20%22param%22:%5B%22elementIndex%22%5D%7D"></div></li>
+</ul>
+</li>
+<li><p>ExtraButton events:</p>
+<ul>
+<li>ExtraButtonClick
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22ExtraButtonClick%22,%20%22param%22:%5B%22elementIndex%22%5D%7D"></div><ul>
+<li><em>related property: LastClickedExtraButton</em>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22LastClickedExtraButton%22%7D"></div></li>
+</ul>
+</li>
+<li>ExtraButtonLongClick
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22ExtraButtonLongClick%22,%20%22param%22:%5B%22elementIndex%22%5D%7D"></div></li>
+<li>ExtraButtonTouchDown
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22ExtraButtonTouchDown%22,%20%22param%22:%5B%22elementIndex%22%5D%7D"></div></li>
+<li>ExtraButtonTouchUp
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22ExtraButtonTouchUp%22,%20%22param%22:%5B%22elementIndex%22%5D%7D"></div></li>
+</ul>
+</li>
+<li><p>Element icon events:</p>
+<ul>
+<li>IconClick
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22IconClick%22,%20%22param%22:%5B%22elementIndex%22%5D%7D"></div><ul>
+<li><em>related property: LastClickedIcon</em>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22LastClickedIcon%22%7D"></div></li>
+</ul>
+</li>
+<li>IconLongClick
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22IconLongClick%22,%20%22param%22:%5B%22elementIndex%22%5D%7D"></div></li>
+<li>IconTouchDown
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22IconTouchDown%22,%20%22param%22:%5B%22elementIndex%22%5D%7D"></div></li>
+<li>IconTouchUp
+<div ai2-block="event" not-rendered="" value="%7B%22name%22:%22IconTouchUp%22,%20%22param%22:%5B%22elementIndex%22%5D%7D"></div></li>
+</ul>
+</li>
+</ul>
+<h2 id="methods">Methods</h2>
+<ul>
+<li><p>List operations:</p>
+<ul>
+<li>AddElement
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22AddElement%22,%20%22param%22:%5B%22element%22%5D%7D"></div></li>
+<li>AddEmptyElement
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22AddEmptyElement%22%7D"></div></li>
+<li>Clear
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22Clear%22%7D"></div></li>
+<li>Get
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22Get%22,%20%22output%22:true%7D"></div></li>
+<li>GetElement
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22GetElement%22,%20%22param%22:%5B%22elementIndex%22%5D,%20%22output%22:true%7D"></div></li>
+<li>Initialize
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22Initialize%22,%20%22param%22:%5B%22verticalArrangement%22%5D%7D"></div></li>
+<li>Initialize_Scroll (using the VerticalScrollArrangement)
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22Initialize_Scroll%22,%20%22param%22:%5B%22verticalScrollArrangement%22%5D%7D"></div></li>
+<li>RemoveElement
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22RemoveElement%22,%20%22param%22:%5B%22elementIndex%22%5D%7D"></div></li>
+<li>Set
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22Set%22,%20%22param%22:%5B%22list%22%5D%7D"></div></li>
+</ul>
+</li>
+<li><p>Element operations:</p>
+<ul>
+<li>SetElement
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22SetElement%22,%20%22param%22:%5B%22elementIndex%22,%20%22element%22%5D%7D"></div></li>
+<li>SetElementIcon
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22SetElementIcon%22,%20%22param%22:%5B%22elementIndex%22,%20%22path%22%5D%7D"></div></li>
+<li>SetElementMainText
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22SetElementMainText%22,%20%22param%22:%5B%22elementIndex%22,%20%22mainText%22%5D%7D"></div></li>
+<li>SetElementSubText
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22SetElementSubText%22,%20%22param%22:%5B%22elementIndex%22,%20%22subText%22%5D%7D"></div></li>
+<li>SetElementText
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22SetElementText%22,%20%22param%22:%5B%22elementIndex%22,%20%22text%22%5D%7D"></div></li>
+</ul>
+</li>
+<li><p>Other operations:</p>
+<ul>
+<li>ClearAllCache
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22ClearAllCache%22%7D"></div></li>
+<li>ClearCache
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22ClearCache%22,%20%22param%22:%5B%22path%22%5D%7D"></div></li>
+</ul>
+</li>
+</ul>
+<h2 id="properties">Properties</h2>
+<p>ColinTreeListView provide the real-time list layout modifing through properties<br>And the properties are: (the order of the properties cannot be control by code, sorry for the mess here)  </p>
+<ul>
+<li>AsyncImageLoad - load image in a asynchronous way
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22AsyncImageLoad%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22AsyncImageLoad%22,%20%22getter%22:false%7D"></div></li>
+<li>CacheImage - cache image by file path, in order to avoid wasting time and memory
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22CacheImage%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22CacheImage%22,%20%22getter%22:false%7D"></div></li>
+<li>ElementHeight - Height of elements
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ElementHeight%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ElementHeight%22,%20%22getter%22:false%7D"></div></li>
+<li>ExtraButtonBgColor
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonBgColor%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonBgColor%22,%20%22getter%22:false%7D"></div></li>
+<li>ExtraButtonEnabled - default as false, if you need a extra button, please check it (set it to true).
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonEnabled%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonEnabled%22,%20%22getter%22:false%7D"></div></li>
+<li>ExtraButtonHeight
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonHeight%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonHeight%22,%20%22getter%22:false%7D"></div></li>
+<li>ExtraButtonImage
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonImage%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonImage%22,%20%22getter%22:false%7D"></div></li>
+<li>ExtraButtonPaddings
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonPaddings%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonPaddings%22,%20%22getter%22:false%7D"></div></li>
+<li>ExtraButtonShape
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonShape%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonShape%22,%20%22getter%22:false%7D"></div></li>
+<li>ExtraButtonText - I would not support seting text of extra button of each elements :P
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonText%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonText%22,%20%22getter%22:false%7D"></div></li>
+<li>ExtraButtonTextFontBold
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonTextFontBold%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonTextFontBold%22,%20%22getter%22:false%7D"></div></li>
+<li>ExtraButtonTextFontSize
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonTextFontSize%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonTextFontSize%22,%20%22getter%22:false%7D"></div></li>
+<li>ExtraButtonWidth<br><div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonWidth%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ExtraButtonWidth%22,%20%22getter%22:false%7D"></div></li>
+<li>IconBgColor
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconBgColor%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconBgColor%22,%20%22getter%22:false%7D"></div></li>
+<li>IconHeight
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconHeight%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconHeight%22,%20%22getter%22:false%7D"></div></li>
+<li>IconMultiParams - if this is checked, new format (introduced since Version 5) <code>path||iconText</code> would be available. Value like <code>Photoshop.png||P</code> will be displayed as a Text <code>P</code> on image <code>Photoshop.png</code>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconMultiParams%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconMultiParams%22,%20%22getter%22:false%7D"></div></li>
+<li>IconPaddings - for larger space of text displaying
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconPaddings%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconPaddings%22,%20%22getter%22:false%7D"></div></li>
+<li>IconShape - same as one of buttons
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconShape%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconShape%22,%20%22getter%22:false%7D"></div></li>
+<li>IconTextColor
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconTextColor%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconTextColor%22,%20%22getter%22:false%7D"></div></li>
+<li>IconTextFontBold
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconTextFontBold%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconTextFontBold%22,%20%22getter%22:false%7D"></div></li>
+<li>IconTextFontSize
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconTextFontSize%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconTextFontSize%22,%20%22getter%22:false%7D"></div></li>
+<li>IconWidth<br><div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconWidth%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22IconWidth%22,%20%22getter%22:false%7D"></div></li>
+<li>ScrollBottomAfterAdd - Scroll to bottom after an element is added - (using delay to make sure listview has been re-rendered)
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ScrollBottomAfterAdd%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ScrollBottomAfterAdd%22,%20%22getter%22:false%7D"></div></li>
+<li>SubTextColor
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22SubTextColor%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22SubTextColor%22,%20%22getter%22:false%7D"></div></li>
+<li>SubTextFontBold
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22SubTextFontBold%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22SubTextFontBold%22,%20%22getter%22:false%7D"></div></li>
+<li>SubTextFontSize
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22SubTextFontSize%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22SubTextFontSize%22,%20%22getter%22:false%7D"></div></li>
+<li>SubTextHeight (-1 for auto, -2 for fill parent)
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22SubTextHeight%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22SubTextHeight%22,%20%22getter%22:false%7D"></div></li>
+<li>TextColor
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22TextColor%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22TextColor%22,%20%22getter%22:false%7D"></div></li>
+<li>TextFontBold
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22TextFontBold%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22TextFontBold%22,%20%22getter%22:false%7D"></div></li>
+<li>TextFontSize
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22TextFontSize%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22TextFontSize%22,%20%22getter%22:false%7D"></div></li>
+<li>TextHeight (-1 for auto, -2 for fill parent)<br><div ai2-block="property" not-rendered="" value="%7B%22name%22:%22TextHeight%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22TextHeight%22,%20%22getter%22:false%7D"></div></li>
+<li>TouchDownColor - Color when element is touch down, default alpha is 136/255, about 53%
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22TouchDownColor%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22TouchDownColor%22,%20%22getter%22:false%7D"></div></li>
+<li>UnderlineColor - An underline is the line between two elements
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22UnderlineColor%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22UnderlineColor%22,%20%22getter%22:false%7D"></div></li>
+<li>UnderlineWidth
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22UnderlineWidth%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22UnderlineWidth%22,%20%22getter%22:false%7D"></div></li>
+<li>WidthAfterIcon
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22WidthAfterIcon%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22WidthAfterIcon%22,%20%22getter%22:false%7D"></div></li>
+<li>WidthBeforeExtraButton
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22WidthBeforeExtraButton%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22WidthBeforeExtraButton%22,%20%22getter%22:false%7D"></div></li>
+<li>WidthBeforeIcon<br><div ai2-block="property" not-rendered="" value="%7B%22name%22:%22WidthBeforeIcon%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22WidthBeforeIcon%22,%20%22getter%22:false%7D"></div></li>
+</ul>
+<p><strong>Attached: the color when element is touch down</strong><br><img src="../images/ColinTreeListView/TouchDownScreenshot.png" alt=""></p>
+<h2 id="colintreelistviewelement">ColinTreeListViewElement</h2>
+<p>This is a handler for every single element in the listView.</p>
+<p><strong>Note: Before use any property, please link to a element by calling <code>LinkToElement</code></strong><br><img src="../images/ColinTreeListView/linkToElement.png" alt=""></p>
+<p>Properties that not exist in ListView:</p>
+<ul>
+<li>UseGlobalProperties - default as False, if you want the properties of this element not to be refresh when the ListView properties changed, please set this to True.
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22UseGlobalProperties%22,%20%22componentName%22:%22ColinTreeListViewElement1%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22UseGlobalProperties%22,%20%22getter%22:false%7D"></div></li>
+<li>ElementBackgroundColor
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ElementBackgroundColor%22%7D"></div>
+<div ai2-block="property" not-rendered="" value="%7B%22name%22:%22ElementBackgroundColor%22,%20%22getter%22:false%7D"></div></li>
+</ul>
+<h2 id="download">Download</h2>
+<ul>
+<li>Last update 2018.7.27 (v10)</li>
+<li><a href="../aix/cn.colintree.aix.ColinTreeListView.aix" target="_blank">Mirror 1 (This website)</a></li>
+<li><a href="https://github.com/OpenSourceAIX/ColinTreeListView/releases" target="_blank">Mirror 2 (Github release)</a></li>
+<li><a href="https://github.com/OpenSourceAIX/ColinTreeListView" target="_blank">Source Code</a></li>
+</ul>
+<h2 id="need-more-features"><a href="ListViewCustomize.html">Need more features?</a></h2>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> By ColinTree (<a href="mailto://502470184@qq.com" target="_blank">email me</a>) <br> <a href=".."><strong>&#x6350;&#x8D60;/donate</strong></a> </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> <strong>Last update:</strong>  2019-04-08 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../SUMMARY.html" class="navigation navigation-prev " aria-label="Previous page: My current extensions:">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="AutoCompleteBox.html" class="navigation navigation-next " aria-label="Next page: AutoComplete plugin - AutoCompleteBox">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Custom ListView - ColinTreeListView *","level":"1.4.1","depth":2,"next":{"title":"AutoComplete plugin - AutoCompleteBox","level":"1.4.2","depth":2,"path":"extensions/AutoCompleteBox.md","ref":"extensions/AutoCompleteBox.md","articles":[]},"previous":{"title":"My current extensions:","level":"1.4","depth":1,"path":"SUMMARY.md","ref":"SUMMARY.md","articles":[{"title":"Custom ListView - ColinTreeListView *","level":"1.4.1","depth":2,"path":"extensions/ColinTreeListView.md","ref":"extensions/ColinTreeListView.md","articles":[]},{"title":"AutoComplete plugin - AutoCompleteBox","level":"1.4.2","depth":2,"path":"extensions/AutoCompleteBox.md","ref":"extensions/AutoCompleteBox.md","articles":[]},{"title":"Scroll Arrangement Handlers (v2+)","level":"1.4.3","depth":2,"path":"extensions/ScrollArrangementHandlers.md","ref":"extensions/ScrollArrangementHandlers.md","articles":[]},{"title":"ListView advance customize","level":"1.4.4","depth":2,"path":"extensions/ListViewCustomize.md","ref":"extensions/ListViewCustomize.md","articles":[]},{"title":"SwipeRefresh","level":"1.4.5","depth":2,"path":"extensions/SwipeRefresh.md","ref":"extensions/SwipeRefresh.md","articles":[]},{"title":"Password visibility - PasswordBoxSwitch","level":"1.4.6","depth":2,"path":"extensions/PasswordBoxSwitch.md","ref":"extensions/PasswordBoxSwitch.md","articles":[]},{"title":"Asynchronous Image Loader - AsyncImageLoader","level":"1.4.7","depth":2,"path":"extensions/AsyncImageLoader.md","ref":"extensions/AsyncImageLoader.md","articles":[]},{"title":"SlideShow (Carousel) - ColinTreeSlideShow","level":"1.4.8","depth":2,"path":"extensions/ColinTreeSlideShow.md","ref":"extensions/ColinTreeSlideShow.md","articles":[]},{"title":"9-patch supporter - ColinTreeNinePatch","level":"1.4.9","depth":2,"path":"extensions/ColinTreeNinePatch.md","ref":"extensions/ColinTreeNinePatch.md","articles":[]},{"title":"Baidu Translate (API) - BaiduFanyi","level":"1.4.10","depth":2,"path":"extensions/BaiduFanyi.md","ref":"extensions/BaiduFanyi.md","articles":[]},{"title":"Check first run - ColinTreeFirstRun *","level":"1.4.11","depth":2,"path":"extensions/ColinTreeFirstRun.md","ref":"extensions/ColinTreeFirstRun.md","articles":[]},{"title":"Go Home Screen - ColinTreeGoHome *","level":"1.4.12","depth":2,"path":"extensions/ColinTreeGoHome.md","ref":"extensions/ColinTreeGoHome.md","articles":[]},{"title":"Get phone ID  - ColinTreeIMEI *","level":"1.4.13","depth":2,"path":"extensions/ColinTreeIMEI.md","ref":"extensions/ColinTreeIMEI.md","articles":[]},{"title":"Math (name shortened) - ColinTreeMath *","level":"1.4.14","depth":2,"path":"extensions/ColinTreeMath.md","ref":"extensions/ColinTreeMath.md","articles":[]},{"title":"Math Extension - ColinTreeMathExtended *","level":"1.4.15","depth":2,"path":"extensions/ColinTreeMathExtended.md","ref":"extensions/ColinTreeMathExtended.md","articles":[]},{"title":"System toast - ColinTreeNotifier *","level":"1.4.16","depth":2,"path":"extensions/ColinTreeNotifier.md","ref":"extensions/ColinTreeNotifier.md","articles":[]},{"title":"Get system language - ColinTreeSysLang *","level":"1.4.17","depth":2,"path":"extensions/ColinTreeSysLang.md","ref":"extensions/ColinTreeSysLang.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","-livereload","-fontsettings","-search","-lunr","search-pro","language-picker","cnzz","sitemap2","page-footer-ex","ai2-blocks","splitter"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"language-picker":{"grid-columns":3},"page-footer-ex":{"copyright":"By ColinTree ([email me](mailto://502470184@qq.com)) <br> [**捐赠/donate**](/)","markdown":true,"update_format":"YYYY-MM-DD","update_label":"**Last update:** "},"splitter":{},"search-pro":{},"ai2-blocks":{"scale_level":0.9,"margin":4},"cnzz":{"style":"0","visible":true,"siteid":"1263936342"},"highlight":{},"sitemap2":{"hostname":"http://aix.colintree.cn/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Colintree <502470184@qq.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Appinventor/Thunkable Extensions","language":"en","links":{"sidebar":{"<b><big>Welcome to aix.colintree.cn！</big></b>":"","> Homepage of ColinTree":"http://www.colintree.cn"}},"gitbook":"*","description":"Appinventor / Thunkable Extensions"},"file":{"path":"extensions/ColinTreeListView.md","mtime":"2019-04-08T12:59:12.362Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-04-08T12:59:31.160Z"},"basePath":"..","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-cnzz/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ai2-blocks/blockly_compressed.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ai2-blocks/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,571 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>9-patch位图显示器 - ColinTreeNinePatch · Appinventor/Thunkable Extensions</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Colintree <502470184@qq.com>">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ai2-blocks/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="BaiduFanyi.html" />
+    
+    
+    <link rel="prev" href="ColinTreeSlideShow.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="" target="_blank" class="custom-link"><b><big>欢迎来到aix.colintree.cn！</big></b></a>
+        </li>
+    
+        
+        <li>
+            <a href="http://www.colintree.cn" target="_blank" class="custom-link">> ColinTree主页</a>
+        </li>
+    
+        
+        <li>
+            <a href="http://tsp.colintree.cn" target="_blank" class="custom-link">> 自己搭建网络数据库服务器</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../HowToInstallExtensions.html">
+            
+                <a href="../HowToInstallExtensions.html">
+            
+                    
+                    拓展使用方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../OtherSourceExtensions.html">
+            
+                <a href="../OtherSourceExtensions.html">
+            
+                    
+                    其他拓展来源
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../SUMMARY.html">
+            
+                <a href="../SUMMARY.html">
+            
+                    
+                    已有拓展：
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="ColinTreeListView.html">
+            
+                <a href="ColinTreeListView.html">
+            
+                    
+                    自定义列表显示 - ColinTreeListView *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="AutoCompleteBox.html">
+            
+                <a href="AutoCompleteBox.html">
+            
+                    
+                    文本输入框提示 - AutoCompleteBox
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="ScrollArrangementHandlers.html">
+            
+                <a href="ScrollArrangementHandlers.html">
+            
+                    
+                    滚动布局管理器 (v2+) - ScrollArrangementHandler
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="ListViewCustomize.html">
+            
+                <a href="ListViewCustomize.html">
+            
+                    
+                    列表显示框的高级定制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="SwipeRefresh.html">
+            
+                <a href="SwipeRefresh.html">
+            
+                    
+                    下拉刷新 - SwipeRefresh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="PasswordBoxSwitch.html">
+            
+                <a href="PasswordBoxSwitch.html">
+            
+                    
+                    密码框文字可见度 - PasswordBoxSwitch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="AsyncImageLoader.html">
+            
+                <a href="AsyncImageLoader.html">
+            
+                    
+                    异步图片加载器 - AsyncImageLoader
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="ColinTreeSlideShow.html">
+            
+                <a href="ColinTreeSlideShow.html">
+            
+                    
+                    图片轮播 - ColinTreeSlideShow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.9" data-path="ColinTreeNinePatch.html">
+            
+                <a href="ColinTreeNinePatch.html">
+            
+                    
+                    9-patch位图显示器 - ColinTreeNinePatch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="BaiduFanyi.html">
+            
+                <a href="BaiduFanyi.html">
+            
+                    
+                    百度翻译Api - BaiduFanyi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="ColinTreeFirstRun.html">
+            
+                <a href="ColinTreeFirstRun.html">
+            
+                    
+                    判断首次运行 - ColinTreeFirstRun *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="ColinTreeGoHome.html">
+            
+                <a href="ColinTreeGoHome.html">
+            
+                    
+                    返回手机桌面 - ColinTreeGoHome *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="ColinTreeIMEI.html">
+            
+                <a href="ColinTreeIMEI.html">
+            
+                    
+                    获取手机识别号 - ColinTreeIMEI *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="ColinTreeMath.html">
+            
+                <a href="ColinTreeMath.html">
+            
+                    
+                    数学拓展 - ColinTreeMath *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" data-path="ColinTreeMathExtended.html">
+            
+                <a href="ColinTreeMathExtended.html">
+            
+                    
+                    数学运算拓展 - ColinTreeMathExtended *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16" data-path="ColinTreeNotifier.html">
+            
+                <a href="ColinTreeNotifier.html">
+            
+                    
+                    系统对话框 - ColinTreeNotifier *
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.17" data-path="ColinTreeSysLang.html">
+            
+                <a href="ColinTreeSysLang.html">
+            
+                    
+                    获取系统语言 - ColinTreeSysLang *
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >9-patch位图显示器 - ColinTreeNinePatch</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="9-patch&#x4F4D;&#x56FE;&#x663E;&#x793A;&#x5668;---colintreeninepatch">9-patch&#x4F4D;&#x56FE;&#x663E;&#x793A;&#x5668; - ColinTreeNinePatch</h1>
+<hr>
+<p><small>&#x90E8;&#x5206;&#x89E3;&#x91CA;&#x5F15;&#x7528;&#x81EA;<a href="https://www.zhihu.com/question/22297482" target="_blank">Android &#x7684; 9-patch &#x56FE;&#x7247;&#x662F;&#x4EC0;&#x4E48;&#xFF1F; - &#x77E5;&#x4E4E;</a></small></p>
+<p>&#x5728;&#x4EE5;&#x5F80;&#xFF0C;&#x4F7F;&#x7528;Appinventor &#x6216; Thunkable &#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x5927;&#x5BB6;&#x7ECF;&#x5E38;&#x4F1A;&#x9047;&#x5230;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#xFF1A;&#x663E;&#x793A;&#x56FE;&#x7247;&#x65F6;&#xFF0C;&#x62C9;&#x4F38;&#x5BFC;&#x81F4;&#x7684;&#x53D8;&#x5F62;&#x4EE5;&#x53CA;&#x6A21;&#x7CCA;&#x5316;  </p>
+<p>&#x5728;&#x539F;&#x751F;&#x5B89;&#x5353;&#x4E2D;&#x56FA;&#x7136;&#x4F1A;&#x6709;&#x8FD9;&#x79CD;&#x95EE;&#x9898;&#xFF0C;&#x4F46;&#x662F;&#x8C37;&#x6B4C;&#x7684;&#x5DE5;&#x7A0B;&#x5E08;&#x4EEC;&#x600E;&#x4E48;&#x53EF;&#x80FD;&#x5FCD;&#x53D7;&#x5F97;&#x4E86;&#x8FD9;&#x4E48;&#x4E25;&#x5CFB;&#x7684;&#x5BA1;&#x7F8E;&#x6311;&#x6218;&#x5462;<br>&#x4E8E;&#x662F;&#xFF0C;9-patch&#x8BDE;&#x751F;&#x4E86;&#x3002;</p>
+<p>&#x7B80;&#x5355;&#x7684;&#x8BF4;&#xFF0C;9 patch &#x683C;&#x5F0F;&#x53EF;&#x4EE5;&#x63CF;&#x8FF0;&#x51FA;&#x4E00;&#x5F20;&#x56FE;&#x7247;&#x54EA;&#x4E9B;&#x5730;&#x65B9;&#x662F;&#x53EF;&#x4EE5;&#x62C9;&#x4F38;&#x7684;&#x3002;<br>&#x4E3E;&#x4E2A;&#x4F8B;&#x5B50;&#xFF0C;&#x4F60;&#x770B;&#x5230;QQ&#x6C14;&#x6CE1;&#x6846;&#xFF0C;&#x65E0;&#x8BBA;&#x4F60;&#x53D1;&#x591A;&#x957F;&#x7684;&#x6587;&#x5B57;&#xFF0C;&#x56FE;&#x7247;&#x4E2D;&#x95F4;&#x90FD;&#x88AB;&#x586B;&#x5145;&#xFF0C;&#x56DB;&#x5468;&#x56FE;&#x7247;&#x6309;&#x539F;&#x6BD4;&#x4F8B;&#x663E;&#x793A;&#xFF0C;&#x8FD9;&#x6837;&#x5C31;&#x89E3;&#x51B3;&#x4E86;&#x4E0D;&#x540C;&#x957F;&#x5EA6;&#x56FE;&#x7247;&#x53EF;&#x80FD;&#x88AB;&#x62C9;&#x4F38;&#x7684;&#x95EE;&#x9898;&#x3002;  </p>
+<p>&#x73B0;&#x5728;&#xFF0C;&#x901A;&#x8FC7;<a href="https://github.com/Anatolii/NinePatchChunk" target="_blank">NinePatchChunk</a>&#x5E93;&#xFF08;&#x4F5C;&#x8005;Anatolii&#x53D1;&#x5E03;&#x4E8E;Github&#xFF09; &#x548C; ColinTree&#x7684;&#x6574;&#x5408;&#xFF0C;NinePatch&#x6280;&#x672F;&#x5728;Appinventor &#x548C; Thunkable&#x4E2D;&#x53EF;&#x4EE5;&#x8F7B;&#x677E;&#x5B9E;&#x73B0;&#x3002;</p>
+<h2 id="&#x65B9;&#x6CD5;">&#x65B9;&#x6CD5;</h2>
+<ul>
+<li>&#x5C06;&#x5DF2;&#x7ECF;&#x7F16;&#x8BD1;&#x8FC7;&#x7684;9patch&#x8BBE;&#x4E3A;&#x7EC4;&#x4EF6;&#x7684;&#x80CC;&#x666F;&#x56FE;
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22SetCompiledNinePatch%22,%20%22param%22:%5B%22component%22,%22path%22%5D,%20%22componentName%22:%22ColinTreeNinePatch1%22%7D"></div></li>
+<li>&#x5C06;&#x672A;&#x7F16;&#x8BD1;&#x8FC7;&#x7684;9patch&#x8BBE;&#x4E3A;&#x7EC4;&#x4EF6;&#x7684;&#x80CC;&#x666F;&#x56FE;
+<div ai2-block="method" not-rendered="" value="%7B%22name%22:%22SetRawNinePatch%22,%20%22param%22:%5B%22component%22,%22path%22%5D%7D"></div></li>
+<li><strong>&#x53C2;&#x6570;&#x89E3;&#x91CA;&#xFF1A;</strong><ul>
+<li>component - &#x7EC4;&#x4EF6;&#xFF08;&#x4F8B;&#x5982;&#xFF1A;<img src="../images/ColinTreeNinePatch/component_block_sample.png" alt="">&#x901A;&#x5E38;&#x662F;&#x6BCF;&#x4E00;&#x4E2A;&#x7EC4;&#x4EF6;&#x7684;&#x6700;&#x4E0B;&#x9762;&#x4E00;&#x4E2A;&#x4EE3;&#x7801;&#x5757;&#xFF09;</li>
+<li>path - &#x56FE;&#x7247;&#x8DEF;&#x5F84;&#xFF0C;&#x548C;ai&#x5176;&#x4ED6;&#x90E8;&#x5206;&#x7684;&#x8DEF;&#x5F84;&#x89C4;&#x5219;&#x76F8;&#x540C;&#x3002;&#x4F8B;&#x5982;&#xFF1A;sample.9.png - &#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x76EE;&#x5F55;&#x4E0B;&#x7684;sample.9.png&#x6587;&#x4EF6;</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x4E0B;&#x8F7D;&#x5730;&#x5740;">&#x4E0B;&#x8F7D;&#x5730;&#x5740;</h2>
+<ul>
+<li>&#x6700;&#x540E;&#x66F4;&#x65B0; 2017.8.31</li>
+<li><a href="../aix/cn.colintree.aix.ColinTreeNinePatch.aix" target="_blank">&#x4E0B;&#x8F7D;1(&#x672C;&#x7AD9;)</a></li>
+</ul>
+<h2 id="&#x6837;&#x4F8B;">&#x6837;&#x4F8B;</h2>
+<ul>
+<li><a href="https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_zh.aia" target="_blank">&#x6837;&#x4F8B;aia</a><br><a href="http://app.gzjkw.net/?repo=aix.colintree.cn/templates/ColinTreeNinePatchTestzh/ColinTreeNinePatchTestzh.asc" target="_blank">&#x4F7F;&#x7528;&#x5E7F;&#x5DDE;&#x7535;&#x6559;&#x9986;&#x670D;&#x52A1;&#x5668;&#x6253;&#x5F00;</a>  </li>
+<li><a href="https://github.com/ColinTree/aix_colintree_cn/releases/download/ColinTreeNinePatchTest/ColinTreeNinePatch_zh.apk" target="_blank">&#x6837;&#x4F8B;apk</a>  </li>
+</ul>
+<p>&#x73B0;&#x6709;&#x4E00;&#x5F20;&#x5DF2;&#x7ECF;&#x7F16;&#x8BD1;&#x8FC7;&#x7684;&#x7D20;&#x6750;menu_dropdown_panel_styled.9.png<br>&#x5982;&#x679C;&#x4F7F;&#x7528;ColinTreeNinepatch&#x8BBE;&#x7F6E;&#x5230;&#x6309;&#x94AE;&#x4E0A;&#xFF0C;&#x53EF;&#x4EE5;&#x6B63;&#x5E38;&#x663E;&#x793A;&#x4E3A;9patch&#x6837;&#x5F0F;<br>&#x800C;&#x5982;&#x679C;&#x4F7F;&#x7528;&#x6309;&#x94AE;&#x81EA;&#x5E26;&#x7684;&#x8BBE;&#x7F6E;&#x6309;&#x94AE;&#x56FE;&#x7247;&#xFF0C;&#x5219;&#x4F1A;&#x653E;&#x5927;&#x5E76;&#x6A21;&#x7CCA;&#x5316;<br><img src="../images/ColinTreeNinePatch/aiaRuntimeCode.png" alt=""><br><img src="../images/ColinTreeNinePatch/aiaRuntimeScreenshot.png" alt=""></p>
+<h2 id="9-patch&#x5236;&#x4F5C;">9-patch&#x5236;&#x4F5C;</h2>
+<p>&#x8FD9;&#x91CC;&#x6709;&#x4E00;&#x4E2A;&#x7EAF;&#x82F1;&#x6587;&#x7684;<a href="https://romannurik.github.io/AndroidAssetStudio/nine-patches.html" target="_blank">&#x5728;&#x7EBF;9-patch&#x5236;&#x4F5C;&#x5668;</a><br>&#x63A8;&#x8350;&#xFF1A;&#x4E0B;&#x8F7D;&#x4E0B;&#x6765;&#x7684;&#x538B;&#x7F29;&#x6587;&#x4EF6;&#x4E2D;&#xFF0C;&#x6298;&#x4E2D;&#x9009;&#x62E9;&quot;res\drawable-xhdpi\&quot;&#x6587;&#x4EF6;&#x5939;&#x91CC;&#x7684;&#x56FE;&#x7247;&#x8FDB;&#x884C;&#x4E0B;&#x4E00;&#x6B65;&#x64CD;&#x4F5C;&#x5373;&#x53EF;</p>
+<p>&#x7136;&#x540E;&#x6211;&#x628A;&#x9875;&#x9762;&#x5927;&#x6982;&#x7FFB;&#x8BD1;&#x4E86;&#x4E00;&#x4E0B;&#xFF1A;<br><img src="../images/ColinTreeNinePatch/AAS_Screenshot.png" alt=""></p>
+<h2 id="9-patch&#x7F16;&#x8BD1;&#x5668;">9-patch&#x7F16;&#x8BD1;&#x5668;</h2>
+<p>&#x4E3A;&#x4E86;&#x65B9;&#x4FBF;&#x7F16;&#x8BD1;&#xFF0C;&#x6211;&#x4ECE;Android Studio&#x4E2D;&#x63D0;&#x53D6;&#x4E86;&#x5FC5;&#x8981;&#x7684;&#x6587;&#x4EF6;(aapt.exe)&#xFF0C;&#x5E76;&#x5199;&#x4E86;&#x4E00;&#x4E2A;&#x6279;&#x5904;&#x7406;&#x811A;&#x672C;&#xFF0C;&#x7528;&#x4E8E;Windows&#x7CFB;&#x7EDF;&#x4E0A;&#x7684;9-patch&#x6587;&#x4EF6;&#x7F16;&#x8BD1;  </p>
+<p>&#x5C06;&#x538B;&#x7F29;&#x6587;&#x4EF6;&#x89E3;&#x538B;&#x4E4B;&#x540E;&#xFF0C;&#x628A;&#x9700;&#x8981;&#x7F16;&#x8BD1;&#x7684;.9.png&#x6587;&#x4EF6;&#xFF08;&#x8FD8;&#x5E26;&#x7740;&#x9ED1;&#x7EBF;&#x6761;&#x7684;9-patch&#x56FE;&#x7247;&#xFF09;&#x7528;&#x9F20;&#x6807;&#x62D6;&#x52A8;&#x5230;ColinTree_9patch_compiler.bat&#x4E0A;<br>&#x7B49;&#x5F85;&#x7F16;&#x8BD1;&#x5B8C;&#x6210;&#xFF0C;&#x5728;OUTPUT&#x6587;&#x4EF6;&#x5939;&#x4E2D;&#x5373;&#x53EF;&#x627E;&#x5230;&#x7F16;&#x8BD1;&#x8FC7;&#x540E;&#x6CA1;&#x6709;&#x9ED1;&#x7EBF;&#x7684;.9.png&#x6587;&#x4EF6;&#x3002;  </p>
+<p>&#x5DF2;&#x7ECF;&#x7F16;&#x8BD1;&#x8FC7;&#x7684;&#x6587;&#x4EF6;&#x4F1A;&#x628A;&#x9ED1;&#x7EBF;&#x6240;&#x8868;&#x8FBE;&#x7684;&#x4FE1;&#x606F;&#x5199;&#x5165;&#x56FE;&#x7247;&#x4E2D;&#xFF0C;&#x51ED;&#x8089;&#x773C;&#x65E0;&#x6CD5;&#x8BC6;&#x522B;&#xFF0C;&#x4F46;Android&#x8FD0;&#x884C;&#x4E2D;&#x53EF;&#x4EE5;&#x8BFB;&#x53D6;&#x5F97;&#x5230;&#x3002;&#x6240;&#x4EE5;&#x5728;&#x7F16;&#x8BD1;&#x8FC7;&#x540E;&#x4E0D;&#x8981;&#x5BF9;&#x56FE;&#x7247;&#x505A;&#x4EFB;&#x4F55;&#x7684;&#x5904;&#x7406;&#xFF01;</p>
+<ul>
+<li>&#x6700;&#x540E;&#x66F4;&#x65B0; 2017.8.31</li>
+<li><a href="../aix/ColinTree_9patch_compiler.zip" target="_blank">&#x4E0B;&#x8F7D;1(&#x672C;&#x7AD9;)</a></li>
+</ul>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> By ColinTree (<a href="mailto://502470184@qq.com" target="_blank">email me</a>) <br> <a href=".."><strong>&#x6350;&#x8D60;/donate</strong></a> </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> <strong>Last update:</strong>  2019-04-08 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="ColinTreeSlideShow.html" class="navigation navigation-prev " aria-label="Previous page: 图片轮播 - ColinTreeSlideShow">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="BaiduFanyi.html" class="navigation navigation-next " aria-label="Next page: 百度翻译Api - BaiduFanyi">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"9-patch位图显示器 - ColinTreeNinePatch","level":"1.4.9","depth":2,"next":{"title":"百度翻译Api - BaiduFanyi","level":"1.4.10","depth":2,"path":"extensions/BaiduFanyi.md","ref":"extensions/BaiduFanyi.md","articles":[]},"previous":{"title":"图片轮播 - ColinTreeSlideShow","level":"1.4.8","depth":2,"path":"extensions/ColinTreeSlideShow.md","ref":"extensions/ColinTreeSlideShow.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-livereload","-fontsettings","-search","-lunr","search-pro","language-picker","cnzz","sitemap2","page-footer-ex","ai2-blocks","splitter"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"language-picker":{"grid-columns":3},"page-footer-ex":{"copyright":"By ColinTree ([email me](mailto://502470184@qq.com)) <br> [**捐赠/donate**](/)","markdown":true,"update_format":"YYYY-MM-DD","update_label":"**Last update:** "},"splitter":{},"search-pro":{},"ai2-blocks":{"scale_level":0.9,"margin":4,"text_when":"当","text_do":"执行","text_call":"调用","text_set":"设置"},"cnzz":{"style":"0","visible":true,"siteid":"1263936342"},"highlight":{},"sitemap2":{"hostname":"http://aix.colintree.cn/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Colintree <502470184@qq.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Appinventor/Thunkable Extensions","language":"zh","links":{"sidebar":{"<b><big>欢迎来到aix.colintree.cn！</big></b>":"","> ColinTree主页":"http://www.colintree.cn","> 自己搭建网络数据库服务器":"http://tsp.colintree.cn"}},"gitbook":"*","description":"Appinventor / Thunkable Extensions"},"file":{"path":"extensions/ColinTreeNinePatch.md","mtime":"2019-04-08T12:59:12.380Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-04-08T12:59:31.160Z"},"basePath":"..","book":{"language":"zh"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-cnzz/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ai2-blocks/blockly_compressed.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ai2-blocks/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+
+    </body>
+</html>
+
