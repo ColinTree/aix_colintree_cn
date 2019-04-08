@@ -2,6 +2,10 @@
 
 ---
 
+
+* 2019.4.6更新（V2）：
+  * 修复了奇数平方数会被判定为质数的问题
+
 ## 方法
 
 * 平均数 - 返回列表中所有数字的平均数
@@ -37,7 +41,7 @@
 
 ## 下载地址
 
-* 最后更新 2017.8.17
-* <a href="/aix/cn.colintree.aix.ColinTreeMathExtended.aix" target="_blank">下载1(本站)</a>
-* [下载2](https://raw.githubusercontent.com/OpenSourceAIX/ColinTreeMathExtended/master/cn.colintree.aix.ColinTreeMathExtended.aix)
+* 最后更新 2019.4.6
+* <a href="/aix/cn.colintree.aix.ColinTreeMathExtended-v2.aix" target="_blank">下载1(本站)</a>
+* [下载2（自动编译）](https://github.com/OpenSourceAIX/ColinTreeMathExtended/releases/download/v2/binary.zip)
 * [源代码](https://github.com/OpenSourceAIX/ColinTreeMathExtended)

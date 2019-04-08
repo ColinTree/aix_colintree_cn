@@ -6,6 +6,9 @@ All the methods here is the same as the ColinTreeMathExtended, but some of the m
 For example, GreatestCommonDivisor is named GCD here
 And this can avoid code area wasting
 
+* Update on 2019.4.6 (Version 2):
+  * Fixed all num = (2n+1)^2 would be consider as prime
+
 ## Methods
 
 * Average - return the average value of all number in the list
@@ -41,7 +44,7 @@ And this can avoid code area wasting
 
 ## Download
 
-* Last update 2017.8.17
-* <a href="/aix/cn.colintree.aix.ColinTreeMath.aix" target="_blank">Mirror 1 (This website)</a>
-* [Mirror 2](https://raw.githubusercontent.com/OpenSourceAIX/ColinTreeMath/master/cn.colintree.aix.ColinTreeMath.aix)
+* Last update 2019.4.6
+* <a href="/aix/cn.colintree.aix.ColinTreeMath-v2.aix" target="_blank">Mirror 1 (This website)</a>
+* [Mirror 2 (Auto-build)](https://github.com/OpenSourceAIX/ColinTreeMath/releases/download/v2/binary.zip)
 * [Source](https://github.com/OpenSourceAIX/ColinTreeMath)

@@ -5,6 +5,9 @@
 所有功能与“数学运算库拓展组件”相同，区别为函数名字进行了压缩
 比如GreatestCommonDivisor(最大公约数)缩短为GCD，减小代码占用面积
 
+* 2019.4.6更新（V2）：
+  * 修复了奇数平方数会被判定为质数的问题
+
 ## 方法
 
 * 平均数 - 返回列表中所有数字的平均数
@@ -40,7 +43,7 @@
 
 ## 下载地址
 
-* 最后更新 2017.8.17
-* <a href="/aix/cn.colintree.aix.ColinTreeMath.aix" target="_blank">下载1(本站)</a>
-* [下载2](https://raw.githubusercontent.com/OpenSourceAIX/ColinTreeMath/master/cn.colintree.aix.ColinTreeMath.aix)
+* 最后更新 2019.4.6
+* <a href="/aix/cn.colintree.aix.ColinTreeMath-v2.aix" target="_blank">下载1(本站)</a>
+* [下载2（自动编译）](https://github.com/OpenSourceAIX/ColinTreeMath/releases/download/v2/binary.zip)
 * [源代码](https://github.com/OpenSourceAIX/ColinTreeMath)

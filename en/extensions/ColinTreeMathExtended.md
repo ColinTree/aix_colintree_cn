@@ -2,7 +2,10 @@
 
 ---
 
-Extended the math methods  of Appinventor (& thunkable):
+Extended the math methods  of Appinventor (& thunkable)
+
+* Update on 2019.4.6 (Version 2):
+  * Fixed all num = (2n+1)^2 would be consider as prime
 
 ## Methods
 
@@ -39,7 +42,7 @@ Extended the math methods  of Appinventor (& thunkable):
 
 ## Download
 
-* Last update 2017.8.17
-* <a href="/aix/cn.colintree.aix.ColinTreeMathExtended.aix" target="_blank">Mirror 1 (This website)</a>
-* [Mirror 2](https://raw.githubusercontent.com/OpenSourceAIX/ColinTreeMathExtended/master/cn.colintree.aix.ColinTreeMathExtended.aix)
+* Last update 2019.4.6
+* <a href="/aix/cn.colintree.aix.ColinTreeMathExtended-v2.aix" target="_blank">Mirror 1 (This website)</a>
+* [Mirror 2 (Auto-build)](https://github.com/OpenSourceAIX/ColinTreeMathExtended/releases/download/v2/binary.zip)
 * [Source](https://github.com/OpenSourceAIX/ColinTreeMathExtended)
