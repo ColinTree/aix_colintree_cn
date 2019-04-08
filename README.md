@@ -1,3 +1,8 @@
 # aix_colintree_cn
 
-[goto](https://aix.colintree.cn)
+https://aix.colintree.cn
+
+
+## way build
+
+`gitbook build src docs`
