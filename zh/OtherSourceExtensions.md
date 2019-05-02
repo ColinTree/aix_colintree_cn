@@ -17,7 +17,7 @@
 ## 其他分类
 
 * [Thunkable 拓展目录](http://extensiondirectory.com/)
-* [Taifun - pura vida apps](https://luravidaapps.com/extensions.php)
+* [Taifun - pura vida apps](https://puravidaapps.com/extensions.php)
 * [NMD](https://nmd-apps.jimdo.com/extensions/)
 * ...
 
