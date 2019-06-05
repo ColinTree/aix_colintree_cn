@@ -4,6 +4,12 @@
 
 Higher level "ListView", using extensions!
 
+* Update on 2019.6.5 (Version 11): 
+  * Added Translations (need platform supporting)
+  * Fixed a Get method bug **by [@10MINT](https://github.com/10MINT)**
+  * Added ExtraButtonImage in ColinTreeListViewElement **part of work done by [@mkakozbeklem](https://github.com/mkakozbeklem)**
+  * Removed flag deprecated from all blocks
+
 * Update on 2018.7.27 (Version 10):
   * Added Get **by [@10MINT](https://github.com/10MINT)**
   * Added LastLongClickedElement **by [@10MINT](https://github.com/10MINT)**
@@ -290,9 +296,10 @@ Properties that not exist in ListView:
 
 ## Download  
 
-* Last update 2018.7.27 (v10)
-* <a href="/aix/cn.colintree.aix.ColinTreeListView.aix" target="_blank">Mirror 1 (This website)</a>
-* [Mirror 2 (Github release)](https://github.com/OpenSourceAIX/ColinTreeListView/releases)
+* Last update 2019.6.5 (v11)
+* <a href="/aix/cn.colintree.aix.ColinTreeListView.aix" target="_blank">Direct download</a>
+* [Release info](https://github.com/OpenSourceAIX/ColinTreeListView/releases/tag/v11)
+* [binary.zip](https://github.com/OpenSourceAIX/ColinTreeListView/releases/download/v11/binary.zip)
 * [Source Code](https://github.com/OpenSourceAIX/ColinTreeListView)
 
 ## [Need more features?](ListViewCustomize.md)

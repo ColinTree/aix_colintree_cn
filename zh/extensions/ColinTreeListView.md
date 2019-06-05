@@ -4,6 +4,12 @@
 
 更高级的“列表显示框”，通过拓展组件动态实现！
 
+* 2019.6.5更新 (V11)：
+  * 添加了组件内翻译（需要平台支持）
+  * 修复了一个Get获取所有列表项的问题 **感谢[@10MINT](https://github.com/10MINT)的代码**
+  * 添加了ColinTreeListViewElement中的ExtraButtonImage **部分代码由[@mkakozbeklem](https://github.com/mkakozbeklem)完成**
+  * 取消了有些代码块被弃用的设定
+
 * 2018.7.27更新（V10）：
   * 新增了Get获取所有列表项 **感谢[@10MINT](https://github.com/10MINT) 的PR**
   * 新增了LastLongClickedElement 最后被长按的列表项的编号 **感谢[@10MINT](https://github.com/10MINT) 的PR**
@@ -291,9 +297,10 @@ ColinTreeListView提供了可以供实时更改的列表效果
 
 ## 下载地址
 
-* 最后更新 2018.7.27 (v10)
-* <a href="/aix/cn.colintree.aix.ColinTreeListView.aix" target="_blank">下载1(本站)</a>
-* [下载2(Github release)](https://github.com/OpenSourceAIX/ColinTreeListView/releases)
+* 最后更新 2019.6.5 (v11)
+* <a href="/aix/cn.colintree.aix.ColinTreeListView.aix" target="_blank">直接下载</a>
+* [更新信息](https://github.com/OpenSourceAIX/ColinTreeListView/releases/tag/v11)
+* [自动构建文件 binary.zip](https://github.com/OpenSourceAIX/ColinTreeListView/releases/download/v11/binary.zip)
 * [源码](https://github.com/OpenSourceAIX/ColinTreeListView)
 
 ## [需要更多的功能？](ListViewCustomize.md)
