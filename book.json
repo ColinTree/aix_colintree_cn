@@ -1,5 +1,5 @@
 {
-    "author": "Colintree <502470184@qq.com>",
+    "author": "Colintree <colinycl123@gmail.com>",
     "description": "Appinventor / Thunkable Extensions",
     "generator": "site",
     "plugins": [
@@ -17,7 +17,7 @@
             "hostname": "http://aix.colintree.cn/"
         },
         "page-footer-ex": {
-            "copyright": "By ColinTree ([email me](mailto://502470184@qq.com)) <br> [**捐赠/donate**](/)",
+            "copyright": "By ColinTree ([email me](mailto://colinycl123@gmail.com)) <br> [**捐赠/donate**](/)",
             "markdown": true,
             "update_label": "**Last update:** ",
             "update_format": "YYYY-MM-DD"
