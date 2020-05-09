@@ -4,7 +4,7 @@
         "sidebar": {
             "<b><big>欢迎来到aix.colintree.cn！</big></b>": "",
             "> ColinTree主页": "http://www.colintree.cn",
-            "> 自己搭建网络数据库服务器": "https://github.com/ColinTree/tinywebdb-php-vue/blob/master/README.md#tinywebdb-php-vue"
+            "> 自己搭建网络数据库服务器": "https://tpv.colintree.cn/"
         }
     },
     "pluginsConfig": {
