@@ -18,14 +18,11 @@ jobs:
       
       - run: npm i -g gitbook-cli
       
-#       - run: |
-#           echo $(npm root -g)/git*/node*/aproba/package.json
-#           cat $(npm root -g)/git*/node*/aproba/package.json
-    
-      - name: Fix Gitbook install error
-        run: npm install aproba@latest --save --prefix $(npm root -g)/gitbook-cli
-      
       - run: gitbook install
+      
+      - run: cat ~/.gitbook/versions/3.2.3/node_modules/npm/package.json
+        if: always()
+      
       - run: gitbook build
       
       - name: Deploy to pages
