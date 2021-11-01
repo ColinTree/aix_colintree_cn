@@ -20,7 +20,9 @@ jobs:
       
       - run: gitbook install
       
-      - run: cat ~/.gitbook/versions/3.2.3/node_modules/npm/package.json
+      - run: |
+          cat ~/.gitbook/versions/3.2.3/node_modules/npm/package.json
+          cat ~/.gitbook/versions/3.2.3/node_modules/npm/node_modules/aproba/package.json
         if: always()
       
       - run: gitbook build
