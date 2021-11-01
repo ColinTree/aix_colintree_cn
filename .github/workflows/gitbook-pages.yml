@@ -19,7 +19,7 @@ jobs:
       
       # https://stackoverflow.com/questions/64211386/gitbook-cli-install-error-typeerror-cb-apply-is-not-a-function-inside-graceful
       - name: Fix Gitbook install error
-        run: npm install graceful-fs@latest --save --prefix $(dirname $(which gitbook))/../lib/node_modules/gitbook-cli/node_modules
+        run: npm install graceful-fs@latest --save --prefix $(npm root -g)/gitbook-cli
       
       - run: gitbook install
       - run: gitbook build
