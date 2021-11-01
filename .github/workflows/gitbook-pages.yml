@@ -19,9 +19,11 @@ jobs:
       - run: |
           ls -al ~/.npm
           echo
-          ls -al /usr/local/lib/
+          ls -al /usr/local/lib/node_modules
           echo
           which gitbook
+          echo
+          ls -al /opt/hostedtoolcache/node/14.18.1/x64/bin/
       
       - run: gitbook install
       - run: gitbook build
