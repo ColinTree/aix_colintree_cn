@@ -18,9 +18,9 @@ jobs:
       
       - run: npm i -g gitbook-cli
       
-      - run: |
-          echo $(npm root -g)/git*/node*/aproba/package.json
-          cat $(npm root -g)/git*/node*/aproba/package.json
+#       - run: |
+#           echo $(npm root -g)/git*/node*/aproba/package.json
+#           cat $(npm root -g)/git*/node*/aproba/package.json
     
       - name: Fix Gitbook install error
         run: npm install aproba@latest --save --prefix $(npm root -g)/gitbook-cli
