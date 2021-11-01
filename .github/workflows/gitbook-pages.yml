@@ -15,18 +15,7 @@ jobs:
         with:
           node-version: 14
       
-      - run: npm i -g gitbook-cli
-      - run: |
-          ls -al ~/.npm
-          echo
-          ls -al /usr/local/lib/node_modules
-          echo
-          which gitbook
-          echo
-          ls -al /opt/hostedtoolcache/node/14.18.1/x64/bin/
-      
-      - run: gitbook install
-      - run: gitbook build
+      - run: docker run --rm -v "$PWD:/gitbook" billryan/gitbook "gitbook install && gitbook build"
       
       - name: Deploy to pages
         uses: s0/git-publish-subdir-action@develop
