@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 14
       
-      - run: docker run --rm -v "$PWD:/gitbook" billryan/gitbook gitbook build
+      - run: docker run --rm -v "$PWD:/gitbook" billryan/gitbook gitbook install && gitbook build
       
       - name: Deploy to pages
         uses: s0/git-publish-subdir-action@develop
