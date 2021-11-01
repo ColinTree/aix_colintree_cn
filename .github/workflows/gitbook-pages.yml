@@ -13,7 +13,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 0.8
+          node-version: 1
       
       - run: npm i -g gitbook-cli
       
