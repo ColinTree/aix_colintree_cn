@@ -21,6 +21,8 @@ jobs:
       - name: Fix Gitbook install error
         run: npm install graceful-fs@latest --save --prefix $(npm root -g)/gitbook-cli
       
+      - run: cat $(npm root -g)/git*/node*/gra*/package.json
+      
       - run: gitbook install
       - run: gitbook build
       
