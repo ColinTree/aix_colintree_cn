@@ -1,0 +1,28 @@
+name: Auto build
+on:
+  push:
+    branches: [ master, action-build-test ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js v14
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - run: npm i -g gitbook-cli
+      - run: gitbook install
+      - run: gitbook build
+      
+      # Deploy to local repo
+      - name: Deploy to pages
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: gh-pages-test
+          FOLDER: _book
+          MESSAGE: "Auto-build by action: {long-sha}"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
