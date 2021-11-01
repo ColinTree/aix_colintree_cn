@@ -13,17 +13,17 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
+          # https://github.com/isaacs/node-graceful-fs/issues/192#issuecomment-779209676
           node-version: 10
       
       - run: npm i -g gitbook-cli
       
       - run: |
-          echo $(npm root -g)/git*/node*/gra*/package.json
-          cat $(npm root -g)/git*/node*/gra*/package.json
-      
-      # https://stackoverflow.com/questions/64211386/gitbook-cli-install-error-typeerror-cb-apply-is-not-a-function-inside-graceful
+          echo $(npm root -g)/git*/node*/aproba/package.json
+          cat $(npm root -g)/git*/node*/aproba/package.json
+    
       - name: Fix Gitbook install error
-        run: npm install graceful-fs@latest --save --prefix $(npm root -g)/gitbook-cli
+        run: npm install aproba@latest --save --prefix $(npm root -g)/gitbook-cli
       
       - run: gitbook install
       - run: gitbook build
