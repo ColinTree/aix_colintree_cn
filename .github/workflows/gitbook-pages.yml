@@ -17,7 +17,9 @@ jobs:
       
       - run: npm i -g gitbook-cli
       
-      - run: cat $(npm root -g)/git*/node*/gra*/package.json
+      - run: |
+          echo $(npm root -g)/git*/node*/gra*/package.json
+          cat $(npm root -g)/git*/node*/gra*/package.json
       
       # https://stackoverflow.com/questions/64211386/gitbook-cli-install-error-typeerror-cb-apply-is-not-a-function-inside-graceful
       - name: Fix Gitbook install error
