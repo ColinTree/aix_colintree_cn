@@ -10,12 +10,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
   
-      - name: Setup Node.js v14
+      - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: 14.15.4
       
-      - run: docker run --rm -v "$PWD:/gitbook" billryan/gitbook gitbook install && gitbook build
+      - run: npm i -g gitbook-cli
+      
+      - run: gitbook install
+      - run: gitbook build
       
       - name: Deploy to pages
         uses: s0/git-publish-subdir-action@develop
